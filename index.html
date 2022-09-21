@@ -110,9 +110,9 @@
       </section>
       <section class="right">
         <section id="counters">
-          <h2 id="test-count"><span class="number">233</span> tests</h2>
+          <h2 id="test-count"><span class="number">203</span> tests</h2>
           
-            <h2 id="fail-count"><span class="number">108</span> failures</h2>
+            <h2 id="fail-count"><span class="number">44</span> failures</h2>
           
         </section>
         <section id="segment-bar">
@@ -134,7 +134,7 @@
               <tr class="test passing "  onclick="toggleDetails('test_001_PerformOnFirstLaunch');">
                 <td>
                   
-                    <h3 class="time">23.838s</h3>
+                    <h3 class="time">31.865s</h3>
                   
                 </td>
                 <td><h3 class="title">test_001_PerformOnFirstLaunch</h3></td>
@@ -145,7 +145,7 @@
               <tr class="test passing odd"  onclick="toggleDetails('test_002_EmailSignup');">
                 <td>
                   
-                    <h3 class="time">16.719s</h3>
+                    <h3 class="time">16.425s</h3>
                   
                 </td>
                 <td><h3 class="title">test_002_EmailSignup</h3></td>
@@ -156,7 +156,7 @@
               <tr class="test passing "  onclick="toggleDetails('test_003_CantLogin_SubmitButtonEnabled');">
                 <td>
                   
-                    <h3 class="time">13.831s</h3>
+                    <h3 class="time">13.722s</h3>
                   
                 </td>
                 <td><h3 class="title">test_003_CantLogin_SubmitButtonEnabled</h3></td>
@@ -168,7 +168,7 @@
         </section>
       
         
-        <section class="test-suite failing" id="drdiary_iosUITests.UITestsSuite_002_Login">
+        <section class="test-suite passing" id="drdiary_iosUITests.UITestsSuite_002_Login">
           <section class="heading" onclick="toggleTests(this);">
             <h3 class="title">drdiary_iosUITests.UITestsSuite_002_Login</h3>
           </section>
@@ -179,7 +179,7 @@
               <tr class="test passing "  onclick="toggleDetails('test_002_KakaoLogin');">
                 <td>
                   
-                    <h3 class="time">42.954s</h3>
+                    <h3 class="time">42.702s</h3>
                   
                 </td>
                 <td><h3 class="title">test_002_KakaoLogin</h3></td>
@@ -190,7 +190,7 @@
               <tr class="test passing odd"  onclick="toggleDetails('test_004_NaverLogin');">
                 <td>
                   
-                    <h3 class="time">48.782s</h3>
+                    <h3 class="time">41.457s</h3>
                   
                 </td>
                 <td><h3 class="title">test_004_NaverLogin</h3></td>
@@ -201,7 +201,7 @@
               <tr class="test passing "  onclick="toggleDetails('test_005_OtherMethodNaverLogin');">
                 <td>
                   
-                    <h3 class="time">51.063s</h3>
+                    <h3 class="time">50.976s</h3>
                   
                 </td>
                 <td><h3 class="title">test_005_OtherMethodNaverLogin</h3></td>
@@ -212,7 +212,7 @@
               <tr class="test passing odd"  onclick="toggleDetails('test_006_OtherMethodKakaoLogin');">
                 <td>
                   
-                    <h3 class="time">32.232s</h3>
+                    <h3 class="time">31.787s</h3>
                   
                 </td>
                 <td><h3 class="title">test_006_OtherMethodKakaoLogin</h3></td>
@@ -223,7 +223,7 @@
               <tr class="test passing "  onclick="toggleDetails('test_007_OtherMethodEmailLogin');">
                 <td>
                   
-                    <h3 class="time">44.303s</h3>
+                    <h3 class="time">40.895s</h3>
                   
                 </td>
                 <td><h3 class="title">test_007_OtherMethodEmailLogin</h3></td>
@@ -234,7 +234,7 @@
               <tr class="test passing odd"  onclick="toggleDetails('test_008_CantLogin_SubmitButtonEnabled');">
                 <td>
                   
-                    <h3 class="time">16.346s</h3>
+                    <h3 class="time">16.147s</h3>
                   
                 </td>
                 <td><h3 class="title">test_008_CantLogin_SubmitButtonEnabled</h3></td>
@@ -242,36 +242,21 @@
               
             
               
-              <tr class="test failing "  onclick="toggleDetails('test_009_ForgotPassword_VerifyButtonEnabled');">
+              <tr class="test passing "  onclick="toggleDetails('test_009_ForgotPassword_VerifyButtonEnabled');">
                 <td>
+                  
+                    <h3 class="time">15.642s</h3>
                   
                 </td>
                 <td><h3 class="title">test_009_ForgotPassword_VerifyButtonEnabled</h3></td>
               </tr>
-              
-                <tr class="details failing test_009_ForgotPassword_VerifyButtonEnabled">
-                  <td></td>
-                  <td>
-                    
-                      <section class="test-detail reason">XCTAssertTrue failed</section>
-                    
-                    
-                      <section class="test-detail snippet">        <span class="k">if</span> <span class="n">app</span><span class="o">.</span><span class="n">buttons</span><span class="p">[</span><span class="s">"인증번호 발송"</span><span class="p">]</span><span class="o">.</span><span class="nf">waitForExistence</span><span class="p">(</span><span class="nv">timeout</span><span class="p">:</span> <span class="mi">5</span><span class="p">)</span> <span class="p">{</span>
-            <span class="kt">XCTAssertTrue</span><span class="p">(</span><span class="n">app</span><span class="o">.</span><span class="n">buttons</span><span class="p">[</span><span class="s">"인증번호 발송"</span><span class="p">]</span><span class="o">.</span><span class="n">isEnabled</span><span class="p">)</span>
-        <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
-</section>
-                      <section class="test-detail">/Users/admin/Desktop/DrDiary-iOS-v2/drdiary-iosUITests/UITestsSuite_002_Login.swift:158</section>
-                    
-                    
-                  </td>
-                </tr>
               
             
               
               <tr class="test passing odd"  onclick="toggleDetails('test_010_LoginForNextTestSuites');">
                 <td>
                   
-                    <h3 class="time">31.257s</h3>
+                    <h3 class="time">31.058s</h3>
                   
                 </td>
                 <td><h3 class="title">test_010_LoginForNextTestSuites</h3></td>
@@ -294,7 +279,7 @@
               <tr class="test passing "  onclick="toggleDetails('test_002_RecordEtcAppear');">
                 <td>
                   
-                    <h3 class="time">21.898s</h3>
+                    <h3 class="time">21.795s</h3>
                   
                 </td>
                 <td><h3 class="title">test_002_RecordEtcAppear</h3></td>
@@ -305,7 +290,7 @@
               <tr class="test passing odd"  onclick="toggleDetails('test_003_RecordEtcEmptySave');">
                 <td>
                   
-                    <h3 class="time">1.340s</h3>
+                    <h3 class="time">1.366s</h3>
                   
                 </td>
                 <td><h3 class="title">test_003_RecordEtcEmptySave</h3></td>
@@ -316,7 +301,7 @@
               <tr class="test passing "  onclick="toggleDetails('test_004_RecordEtcSave');">
                 <td>
                   
-                    <h3 class="time">15.291s</h3>
+                    <h3 class="time">15.171s</h3>
                   
                 </td>
                 <td><h3 class="title">test_004_RecordEtcSave</h3></td>
@@ -327,7 +312,7 @@
               <tr class="test passing odd"  onclick="toggleDetails('test_005_RecrodEtcSaveAndClose');">
                 <td>
                   
-                    <h3 class="time">2.491s</h3>
+                    <h3 class="time">2.472s</h3>
                   
                 </td>
                 <td><h3 class="title">test_005_RecrodEtcSaveAndClose</h3></td>
@@ -346,7 +331,7 @@
                   <td></td>
                   <td>
                     
-                      <section class="test-detail reason">Failed to synthesize event: Failed to scroll to visible (by AX action) Button, {{2.0, 619.0}, {71.0, 48.0}}, label: '홈', Selected, error: Error kAXErrorCannotComplete performing AXAction kAXScrollToVisibleAction on element AX element pid: 71484, elementOrHash.elementID: 140441877392528.13. (Underlying Error: Error kAXErrorCannotComplete performing AXAction kAXScrollToVisibleAction on element AX element pid: 71484, elementOrHash.elementID: 140441877392528.13)</section>
+                      <section class="test-detail reason">Failed to synthesize event: Failed to scroll to visible (by AX action) Button, {{2.0, 619.0}, {71.0, 48.0}}, label: '홈', Selected, error: Error kAXErrorCannotComplete performing AXAction kAXScrollToVisibleAction on element AX element pid: 2122, elementOrHash.elementID: 140368867997728.13. (Underlying Error: Error kAXErrorCannotComplete performing AXAction kAXScrollToVisibleAction on element AX element pid: 2122, elementOrHash.elementID: 140368867997728.13)</section>
                     
                     
                       <section class="test-detail snippet">        <span class="k">if</span> <span class="k">self</span><span class="o">.</span><span class="nf">waitForExistence</span><span class="p">(</span><span class="nv">timeout</span><span class="p">:</span> <span class="n">timeout</span><span class="p">)</span> <span class="p">{</span>
@@ -658,7 +643,7 @@
                   <td></td>
                   <td>
                     
-                      <section class="test-detail reason">Failed to get matching snapshot: No matches found for first query match sequence: `Descendants matching type TextField`, given input App element pid: 71484 (no attribute values faulted in)</section>
+                      <section class="test-detail reason">Failed to get matching snapshot: No matches found for first query match sequence: `Descendants matching type TextField`, given input App element pid: 2122 (no attribute values faulted in)</section>
                     
                     
                       <section class="test-detail snippet">        <span class="n">app</span><span class="o">.</span><span class="n">textFields</span><span class="o">.</span><span class="n">firstMatch</span><span class="o">.</span><span class="nf">waitForExistenceThenTap</span><span class="p">()</span>
@@ -736,7 +721,7 @@
                   <td></td>
                   <td>
                     
-                      <section class="test-detail reason">Failed to synthesize event: Failed to scroll to visible (by AX action) Button, {{2.0, 619.0}, {71.0, 48.0}}, label: '홈', Selected, error: Error kAXErrorCannotComplete performing AXAction kAXScrollToVisibleAction on element AX element pid: 71484, elementOrHash.elementID: 140441877392528.13. (Underlying Error: Error kAXErrorCannotComplete performing AXAction kAXScrollToVisibleAction on element AX element pid: 71484, elementOrHash.elementID: 140441877392528.13)</section>
+                      <section class="test-detail reason">Failed to synthesize event: Failed to scroll to visible (by AX action) Button, {{2.0, 619.0}, {71.0, 48.0}}, label: '홈', Selected, error: Error kAXErrorCannotComplete performing AXAction kAXScrollToVisibleAction on element AX element pid: 2122, elementOrHash.elementID: 140368867997728.13. (Underlying Error: Error kAXErrorCannotComplete performing AXAction kAXScrollToVisibleAction on element AX element pid: 2122, elementOrHash.elementID: 140368867997728.13)</section>
                     
                     
                       <section class="test-detail snippet">        <span class="k">if</span> <span class="k">self</span><span class="o">.</span><span class="nf">waitForExistence</span><span class="p">(</span><span class="nv">timeout</span><span class="p">:</span> <span class="n">timeout</span><span class="p">)</span> <span class="p">{</span>
@@ -832,7 +817,7 @@
               <tr class="test passing odd"  onclick="toggleDetails('test_029_RecordGlucoseAppear');">
                 <td>
                   
-                    <h3 class="time">9.277s</h3>
+                    <h3 class="time">12.457s</h3>
                   
                 </td>
                 <td><h3 class="title">test_029_RecordGlucoseAppear</h3></td>
@@ -843,7 +828,7 @@
               <tr class="test passing "  onclick="toggleDetails('test_030_RecordGlucoseEmptySave');">
                 <td>
                   
-                    <h3 class="time">1.430s</h3>
+                    <h3 class="time">1.383s</h3>
                   
                 </td>
                 <td><h3 class="title">test_030_RecordGlucoseEmptySave</h3></td>
@@ -854,7 +839,7 @@
               <tr class="test passing odd"  onclick="toggleDetails('test_031_RecordGlucoseAddAndSave');">
                 <td>
                   
-                    <h3 class="time">7.495s</h3>
+                    <h3 class="time">9.249s</h3>
                   
                 </td>
                 <td><h3 class="title">test_031_RecordGlucoseAddAndSave</h3></td>
@@ -865,7 +850,7 @@
               <tr class="test passing "  onclick="toggleDetails('test_032_RecordBasicDateTime');">
                 <td>
                   
-                    <h3 class="time">25.757s</h3>
+                    <h3 class="time">27.553s</h3>
                   
                 </td>
                 <td><h3 class="title">test_032_RecordBasicDateTime</h3></td>
@@ -888,7 +873,7 @@
               <tr class="test passing "  onclick="toggleDetails('test_003_MoveToStatistics');">
                 <td>
                   
-                    <h3 class="time">23.243s</h3>
+                    <h3 class="time">22.928s</h3>
                   
                 </td>
                 <td><h3 class="title">test_003_MoveToStatistics</h3></td>
@@ -899,7 +884,7 @@
               <tr class="test passing odd"  onclick="toggleDetails('test_004_MoveToSummary');">
                 <td>
                   
-                    <h3 class="time">4.270s</h3>
+                    <h3 class="time">4.170s</h3>
                   
                 </td>
                 <td><h3 class="title">test_004_MoveToSummary</h3></td>
@@ -910,7 +895,7 @@
               <tr class="test passing "  onclick="toggleDetails('test_005_MoveToSummaryCaptureImage');">
                 <td>
                   
-                    <h3 class="time">6.903s</h3>
+                    <h3 class="time">6.873s</h3>
                   
                 </td>
                 <td><h3 class="title">test_005_MoveToSummaryCaptureImage</h3></td>
@@ -921,7 +906,7 @@
               <tr class="test passing odd"  onclick="toggleDetails('test_006_ConfirmPopupSummaryShare');">
                 <td>
                   
-                    <h3 class="time">7.972s</h3>
+                    <h3 class="time">7.930s</h3>
                   
                 </td>
                 <td><h3 class="title">test_006_ConfirmPopupSummaryShare</h3></td>
@@ -932,7 +917,7 @@
               <tr class="test passing "  onclick="toggleDetails('test_007_WriteSummaryShareFeed');">
                 <td>
                   
-                    <h3 class="time">10.331s</h3>
+                    <h3 class="time">10.442s</h3>
                   
                 </td>
                 <td><h3 class="title">test_007_WriteSummaryShareFeed</h3></td>
@@ -943,7 +928,7 @@
               <tr class="test passing odd"  onclick="toggleDetails('test_008_SaveWrittenSummaryShareFeed');">
                 <td>
                   
-                    <h3 class="time">19.532s</h3>
+                    <h3 class="time">19.470s</h3>
                   
                 </td>
                 <td><h3 class="title">test_008_SaveWrittenSummaryShareFeed</h3></td>
@@ -954,7 +939,7 @@
               <tr class="test passing "  onclick="toggleDetails('test_009_OpenExistRecord');">
                 <td>
                   
-                    <h3 class="time">8.265s</h3>
+                    <h3 class="time">8.314s</h3>
                   
                 </td>
                 <td><h3 class="title">test_009_OpenExistRecord</h3></td>
@@ -965,7 +950,7 @@
               <tr class="test passing odd"  onclick="toggleDetails('test_010_OpenShareRecord');">
                 <td>
                   
-                    <h3 class="time">8.729s</h3>
+                    <h3 class="time">8.674s</h3>
                   
                 </td>
                 <td><h3 class="title">test_010_OpenShareRecord</h3></td>
@@ -976,7 +961,7 @@
               <tr class="test passing "  onclick="toggleDetails('test_011_CameraInRecordShare');">
                 <td>
                   
-                    <h3 class="time">9.891s</h3>
+                    <h3 class="time">9.862s</h3>
                   
                 </td>
                 <td><h3 class="title">test_011_CameraInRecordShare</h3></td>
@@ -987,7 +972,7 @@
               <tr class="test passing odd"  onclick="toggleDetails('test_012_SelectRecordInShare');">
                 <td>
                   
-                    <h3 class="time">4.104s</h3>
+                    <h3 class="time">4.067s</h3>
                   
                 </td>
                 <td><h3 class="title">test_012_SelectRecordInShare</h3></td>
@@ -998,7 +983,7 @@
               <tr class="test passing "  onclick="toggleDetails('test_013_CloseWarningPopupInShare');">
                 <td>
                   
-                    <h3 class="time">5.906s</h3>
+                    <h3 class="time">5.869s</h3>
                   
                 </td>
                 <td><h3 class="title">test_013_CloseWarningPopupInShare</h3></td>
@@ -1009,7 +994,7 @@
               <tr class="test passing odd"  onclick="toggleDetails('test_014_WriteShareRecord');">
                 <td>
                   
-                    <h3 class="time">2.223s</h3>
+                    <h3 class="time">2.244s</h3>
                   
                 </td>
                 <td><h3 class="title">test_014_WriteShareRecord</h3></td>
@@ -1020,7 +1005,7 @@
               <tr class="test passing "  onclick="toggleDetails('test_015_SaveWrittenShareRecord');">
                 <td>
                   
-                    <h3 class="time">17.986s</h3>
+                    <h3 class="time">17.776s</h3>
                   
                 </td>
                 <td><h3 class="title">test_015_SaveWrittenShareRecord</h3></td>
@@ -1031,7 +1016,7 @@
               <tr class="test passing odd"  onclick="toggleDetails('test_016_DeletePopupShareRecord');">
                 <td>
                   
-                    <h3 class="time">17.100s</h3>
+                    <h3 class="time">16.911s</h3>
                   
                 </td>
                 <td><h3 class="title">test_016_DeletePopupShareRecord</h3></td>
@@ -1042,7 +1027,7 @@
               <tr class="test passing "  onclick="toggleDetails('test_017_DeleteShareRecord');">
                 <td>
                   
-                    <h3 class="time">17.902s</h3>
+                    <h3 class="time">17.787s</h3>
                   
                 </td>
                 <td><h3 class="title">test_017_DeleteShareRecord</h3></td>
@@ -1053,7 +1038,7 @@
               <tr class="test passing odd"  onclick="toggleDetails('test_018_ModifyShareRecord');">
                 <td>
                   
-                    <h3 class="time">17.334s</h3>
+                    <h3 class="time">18.531s</h3>
                   
                 </td>
                 <td><h3 class="title">test_018_ModifyShareRecord</h3></td>
@@ -1076,7 +1061,7 @@
               <tr class="test passing "  onclick="toggleDetails('test_003_MoveToPoint');">
                 <td>
                   
-                    <h3 class="time">23.987s</h3>
+                    <h3 class="time">21.693s</h3>
                   
                 </td>
                 <td><h3 class="title">test_003_MoveToPoint</h3></td>
@@ -1087,7 +1072,7 @@
               <tr class="test passing odd"  onclick="toggleDetails('test_004_KakaoTalkConnectionPage');">
                 <td>
                   
-                    <h3 class="time">2.582s</h3>
+                    <h3 class="time">2.561s</h3>
                   
                 </td>
                 <td><h3 class="title">test_004_KakaoTalkConnectionPage</h3></td>
@@ -1098,7 +1083,7 @@
               <tr class="test passing "  onclick="toggleDetails('test_005_KakaoTalkChatbot_ConnectionScreenAppear');">
                 <td>
                   
-                    <h3 class="time">2.299s</h3>
+                    <h3 class="time">2.258s</h3>
                   
                 </td>
                 <td><h3 class="title">test_005_KakaoTalkChatbot_ConnectionScreenAppear</h3></td>
@@ -1109,7 +1094,7 @@
               <tr class="test passing odd"  onclick="toggleDetails('test_006_KakaoTalkChatbot_CloseScreen');">
                 <td>
                   
-                    <h3 class="time">6.527s</h3>
+                    <h3 class="time">6.479s</h3>
                   
                 </td>
                 <td><h3 class="title">test_006_KakaoTalkChatbot_CloseScreen</h3></td>
@@ -1120,7 +1105,7 @@
               <tr class="test passing "  onclick="toggleDetails('test_007_RegisterGlucoseMeter');">
                 <td>
                   
-                    <h3 class="time">10.081s</h3>
+                    <h3 class="time">9.999s</h3>
                   
                 </td>
                 <td><h3 class="title">test_007_RegisterGlucoseMeter</h3></td>
@@ -1131,7 +1116,7 @@
               <tr class="test passing odd"  onclick="toggleDetails('test_008_FirstBloodSugar');">
                 <td>
                   
-                    <h3 class="time">8.627s</h3>
+                    <h3 class="time">8.594s</h3>
                   
                 </td>
                 <td><h3 class="title">test_008_FirstBloodSugar</h3></td>
@@ -1142,7 +1127,7 @@
               <tr class="test passing "  onclick="toggleDetails('test_009_Pedometer');">
                 <td>
                   
-                    <h3 class="time">12.886s</h3>
+                    <h3 class="time">12.884s</h3>
                   
                 </td>
                 <td><h3 class="title">test_009_Pedometer</h3></td>
@@ -1153,7 +1138,7 @@
               <tr class="test passing odd"  onclick="toggleDetails('test_010_Exercise30Minutes');">
                 <td>
                   
-                    <h3 class="time">5.084s</h3>
+                    <h3 class="time">5.054s</h3>
                   
                 </td>
                 <td><h3 class="title">test_010_Exercise30Minutes</h3></td>
@@ -1164,7 +1149,7 @@
               <tr class="test passing "  onclick="toggleDetails('test_011_CommunityPost');">
                 <td>
                   
-                    <h3 class="time">8.894s</h3>
+                    <h3 class="time">8.859s</h3>
                   
                 </td>
                 <td><h3 class="title">test_011_CommunityPost</h3></td>
@@ -1175,7 +1160,7 @@
               <tr class="test passing odd"  onclick="toggleDetails('test_012_DietManagement');">
                 <td>
                   
-                    <h3 class="time">5.067s</h3>
+                    <h3 class="time">5.046s</h3>
                   
                 </td>
                 <td><h3 class="title">test_012_DietManagement</h3></td>
@@ -1186,7 +1171,7 @@
               <tr class="test passing "  onclick="toggleDetails('test_013_CommunityComments');">
                 <td>
                   
-                    <h3 class="time">8.023s</h3>
+                    <h3 class="time">7.563s</h3>
                   
                 </td>
                 <td><h3 class="title">test_013_CommunityComments</h3></td>
@@ -1197,7 +1182,7 @@
               <tr class="test passing odd"  onclick="toggleDetails('test_014_PoinHistoryAppear');">
                 <td>
                   
-                    <h3 class="time">4.179s</h3>
+                    <h3 class="time">4.226s</h3>
                   
                 </td>
                 <td><h3 class="title">test_014_PoinHistoryAppear</h3></td>
@@ -1242,7 +1227,7 @@
                   <td></td>
                   <td>
                     
-                      <section class="test-detail reason">Failed to get matching snapshot: No matches found for first query match sequence: `Descendants matching type NavigationBar` -> `Elements matching predicate '"포인트 안내" IN identifiers'` -> `Descendants matching type Image`, given input App element pid: 71808 (no attribute values faulted in)</section>
+                      <section class="test-detail reason">Failed to get matching snapshot: No matches found for first query match sequence: `Descendants matching type NavigationBar` -> `Elements matching predicate '"포인트 안내" IN identifiers'` -> `Descendants matching type Image`, given input App element pid: 2455 (no attribute values faulted in)</section>
                     
                     
                       <section class="test-detail snippet">        <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
@@ -1268,7 +1253,7 @@
                   <td></td>
                   <td>
                     
-                      <section class="test-detail reason">Failed to synthesize event: Failed to scroll to visible (by AX action) StaticText, {{314.5, 78.0}, {29.5, 24.0}}, label: '전체', error: Error kAXErrorCannotComplete performing AXAction kAXScrollToVisibleAction on element AX element pid: 71808, elementOrHash.elementID: 140689451651712.3812. (Underlying Error: Error kAXErrorCannotComplete performing AXAction kAXScrollToVisibleAction on element AX element pid: 71808, elementOrHash.elementID: 140689451651712.3812)</section>
+                      <section class="test-detail reason">Failed to synthesize event: Failed to scroll to visible (by AX action) StaticText, {{311.5, 82.0}, {29.5, 24.0}}, label: '전체', error: Error kAXErrorCannotComplete performing AXAction kAXScrollToVisibleAction on element AX element pid: 2455, elementOrHash.elementID: 140475295656288.3850. (Underlying Error: Error kAXErrorCannotComplete performing AXAction kAXScrollToVisibleAction on element AX element pid: 2455, elementOrHash.elementID: 140475295656288.3850)</section>
                     
                     
                       <section class="test-detail snippet">        <span class="k">if</span> <span class="k">self</span><span class="o">.</span><span class="nf">waitForExistence</span><span class="p">(</span><span class="nv">timeout</span><span class="p">:</span> <span class="n">timeout</span><span class="p">)</span> <span class="p">{</span>
@@ -1294,7 +1279,7 @@
                   <td></td>
                   <td>
                     
-                      <section class="test-detail reason">Failed to synthesize event: Failed to scroll to visible (by AX action) Image, {{348.0, 82.5}, {15.0, 15.0}}, error: Error kAXErrorCannotComplete performing AXAction kAXScrollToVisibleAction on element AX element pid: 71808, elementOrHash.elementID: 140689451480240.3814. (Underlying Error: Error kAXErrorCannotComplete performing AXAction kAXScrollToVisibleAction on element AX element pid: 71808, elementOrHash.elementID: 140689451480240.3814)</section>
+                      <section class="test-detail reason">Failed to synthesize event: Failed to scroll to visible (by AX action) Image, {{345.0, 85.0}, {18.0, 18.0}}, error: Error kAXErrorCannotComplete performing AXAction kAXScrollToVisibleAction on element AX element pid: 2455, elementOrHash.elementID: 140475297204624.3852. (Underlying Error: Error kAXErrorCannotComplete performing AXAction kAXScrollToVisibleAction on element AX element pid: 2455, elementOrHash.elementID: 140475297204624.3852)</section>
                     
                     
                       <section class="test-detail snippet">    <span class="kd">func</span> <span class="nf">test_017_PointTransferAppear</span><span class="p">()</span> <span class="p">{</span>
@@ -1320,7 +1305,7 @@
                   <td></td>
                   <td>
                     
-                      <section class="test-detail reason">Failed to get matching snapshot: No matches found for first query match sequence: `Descendants matching type NavigationBar` -> `Elements matching predicate '"포인트 전환" IN identifiers'` -> `Descendants matching type Image`, given input App element pid: 71808 (no attribute values faulted in)</section>
+                      <section class="test-detail reason">Failed to get matching snapshot: No matches found for first query match sequence: `Descendants matching type NavigationBar` -> `Elements matching predicate '"포인트 전환" IN identifiers'` -> `Descendants matching type Image`, given input App element pid: 2455 (no attribute values faulted in)</section>
                     
                     
                       <section class="test-detail snippet">        <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
@@ -1417,7 +1402,7 @@
         </section>
       
         
-        <section class="test-suite failing" id="drdiary_iosUITests.UITestsSuite_006_Community">
+        <section class="test-suite passing" id="drdiary_iosUITests.UITestsSuite_006_Community">
           <section class="heading" onclick="toggleTests(this);">
             <h3 class="title">drdiary_iosUITests.UITestsSuite_006_Community</h3>
           </section>
@@ -1428,7 +1413,7 @@
               <tr class="test passing "  onclick="toggleDetails('test_003_MoveToCommunity');">
                 <td>
                   
-                    <h3 class="time">23.717s</h3>
+                    <h3 class="time">20.757s</h3>
                   
                 </td>
                 <td><h3 class="title">test_003_MoveToCommunity</h3></td>
@@ -1439,7 +1424,7 @@
               <tr class="test passing odd"  onclick="toggleDetails('test_004_BoardTypeAll');">
                 <td>
                   
-                    <h3 class="time">7.459s</h3>
+                    <h3 class="time">8.681s</h3>
                   
                 </td>
                 <td><h3 class="title">test_004_BoardTypeAll</h3></td>
@@ -1447,1225 +1432,223 @@
               
             
               
-              <tr class="test failing "  onclick="toggleDetails('test_005_BoardTypeNotice');">
+              <tr class="test passing "  onclick="toggleDetails('test_005_BoardTypeNotice');">
                 <td>
+                  
+                    <h3 class="time">14.569s</h3>
                   
                 </td>
                 <td><h3 class="title">test_005_BoardTypeNotice</h3></td>
               </tr>
               
-                <tr class="details failing test_005_BoardTypeNotice">
-                  <td></td>
-                  <td>
-                    
-                      <section class="test-detail reason">Failed to get matching snapshot: Lost connection to the application (pid 71907). (Underlying Error: 보조 응용 프로그램과 통신할 수 없습니다. 작업을 다시 시도하십시오. 실패할 경우 응용 프로그램을 종료했다가 재실행한 후 다시 시도하십시오. connection to service with pid 71907 created from an endpoint)</section>
-                    
-                    
-                      <section class="test-detail snippet">        <span class="k">if</span> <span class="k">self</span><span class="o">.</span><span class="nf">waitForExistence</span><span class="p">(</span><span class="nv">timeout</span><span class="p">:</span> <span class="n">timeout</span><span class="p">)</span> <span class="p">{</span>
-            <span class="k">self</span><span class="o">.</span><span class="nf">tap</span><span class="p">()</span>
-            <span class="k">return</span> <span class="kc">true</span>
-</section>
-                      <section class="test-detail">/Users/admin/Desktop/DrDiary-iOS-v2/drdiary-iosUITests/Modules/XCUIElement+Ext.swift:23</section>
-                    
-                    
-                  </td>
-                </tr>
-              
             
               
-              <tr class="test failing odd"  onclick="toggleDetails('test_006_BoardTypeEvent');">
+              <tr class="test passing odd"  onclick="toggleDetails('test_006_BoardTypeEvent');">
                 <td>
+                  
+                    <h3 class="time">6.776s</h3>
                   
                 </td>
                 <td><h3 class="title">test_006_BoardTypeEvent</h3></td>
               </tr>
               
-                <tr class="details failing test_006_BoardTypeEvent">
-                  <td></td>
-                  <td>
-                    
-                      <section class="test-detail reason">XCTAssertTrue failed</section>
-                    
-                    
-                      <section class="test-detail snippet">        <span class="n">app</span><span class="o">.</span><span class="n">buttons</span><span class="p">[</span><span class="s">"community main drawer"</span><span class="p">]</span><span class="o">.</span><span class="nf">waitForExistenceThenTap</span><span class="p">()</span>
-        <span class="kt">XCTAssert</span><span class="p">(</span><span class="n">app</span><span class="o">.</span><span class="n">staticTexts</span><span class="p">[</span><span class="s">"이벤트"</span><span class="p">]</span><span class="o">.</span><span class="nf">waitForExistenceThenTap</span><span class="p">())</span>
-        <span class="kt">XCTAssert</span><span class="p">(</span><span class="n">app</span><span class="o">.</span><span class="n">staticTexts</span><span class="p">[</span><span class="s">"이벤트"</span><span class="p">]</span><span class="o">.</span><span class="nf">waitForExist</span><span class="p">())</span>
-</section>
-                      <section class="test-detail">/Users/admin/Desktop/DrDiary-iOS-v2/drdiary-iosUITests/UITestsSuite_006_Community.swift:47</section>
-                    
-                    
-                  </td>
-                </tr>
-              
             
               
-              <tr class="test failing "  onclick="toggleDetails('test_006_BoardTypeEvent');">
+              <tr class="test passing "  onclick="toggleDetails('test_007_BoardTypeRank');">
                 <td>
                   
-                </td>
-                <td><h3 class="title">test_006_BoardTypeEvent</h3></td>
-              </tr>
-              
-                <tr class="details failing test_006_BoardTypeEvent">
-                  <td></td>
-                  <td>
-                    
-                      <section class="test-detail reason">XCTAssertTrue failed</section>
-                    
-                    
-                      <section class="test-detail snippet">        <span class="kt">XCTAssert</span><span class="p">(</span><span class="n">app</span><span class="o">.</span><span class="n">staticTexts</span><span class="p">[</span><span class="s">"이벤트"</span><span class="p">]</span><span class="o">.</span><span class="nf">waitForExistenceThenTap</span><span class="p">())</span>
-        <span class="kt">XCTAssert</span><span class="p">(</span><span class="n">app</span><span class="o">.</span><span class="n">staticTexts</span><span class="p">[</span><span class="s">"이벤트"</span><span class="p">]</span><span class="o">.</span><span class="nf">waitForExist</span><span class="p">())</span>
-        <span class="kt">XCTAssert</span><span class="p">(</span><span class="n">app</span><span class="o">.</span><span class="n">tables</span><span class="o">.</span><span class="n">cells</span><span class="o">.</span><span class="nf">element</span><span class="p">(</span><span class="nv">boundBy</span><span class="p">:</span> <span class="mi">0</span><span class="p">)</span><span class="o">.</span><span class="n">staticTexts</span><span class="p">[</span><span class="s">"댓글"</span><span class="p">]</span><span class="o">.</span><span class="nf">waitForExistence</span><span class="p">(</span><span class="nv">timeout</span><span class="p">:</span> <span class="mi">30</span><span class="p">))</span>
-</section>
-                      <section class="test-detail">/Users/admin/Desktop/DrDiary-iOS-v2/drdiary-iosUITests/UITestsSuite_006_Community.swift:48</section>
-                    
-                    
-                  </td>
-                </tr>
-              
-            
-              
-              <tr class="test failing odd"  onclick="toggleDetails('test_006_BoardTypeEvent');">
-                <td>
-                  
-                </td>
-                <td><h3 class="title">test_006_BoardTypeEvent</h3></td>
-              </tr>
-              
-                <tr class="details failing test_006_BoardTypeEvent">
-                  <td></td>
-                  <td>
-                    
-                      <section class="test-detail reason">XCTAssertTrue failed</section>
-                    
-                    
-                      <section class="test-detail snippet">        <span class="kt">XCTAssert</span><span class="p">(</span><span class="n">app</span><span class="o">.</span><span class="n">staticTexts</span><span class="p">[</span><span class="s">"이벤트"</span><span class="p">]</span><span class="o">.</span><span class="nf">waitForExist</span><span class="p">())</span>
-        <span class="kt">XCTAssert</span><span class="p">(</span><span class="n">app</span><span class="o">.</span><span class="n">tables</span><span class="o">.</span><span class="n">cells</span><span class="o">.</span><span class="nf">element</span><span class="p">(</span><span class="nv">boundBy</span><span class="p">:</span> <span class="mi">0</span><span class="p">)</span><span class="o">.</span><span class="n">staticTexts</span><span class="p">[</span><span class="s">"댓글"</span><span class="p">]</span><span class="o">.</span><span class="nf">waitForExistence</span><span class="p">(</span><span class="nv">timeout</span><span class="p">:</span> <span class="mi">30</span><span class="p">))</span>
-    <span class="p">}</span>
-</section>
-                      <section class="test-detail">/Users/admin/Desktop/DrDiary-iOS-v2/drdiary-iosUITests/UITestsSuite_006_Community.swift:49</section>
-                    
-                    
-                  </td>
-                </tr>
-              
-            
-              
-              <tr class="test failing "  onclick="toggleDetails('test_007_BoardTypeRank');">
-                <td>
+                    <h3 class="time">29.293s</h3>
                   
                 </td>
                 <td><h3 class="title">test_007_BoardTypeRank</h3></td>
               </tr>
               
-                <tr class="details failing test_007_BoardTypeRank">
-                  <td></td>
-                  <td>
-                    
-                      <section class="test-detail reason">XCTAssertTrue failed</section>
-                    
-                    
-                      <section class="test-detail snippet">        <span class="n">app</span><span class="o">.</span><span class="n">buttons</span><span class="p">[</span><span class="s">"community main drawer"</span><span class="p">]</span><span class="o">.</span><span class="nf">waitForExistenceThenTap</span><span class="p">()</span>
-        <span class="kt">XCTAssert</span><span class="p">(</span><span class="n">app</span><span class="o">.</span><span class="n">staticTexts</span><span class="p">[</span><span class="s">"인기 게시글"</span><span class="p">]</span><span class="o">.</span><span class="nf">waitForExistenceThenTap</span><span class="p">())</span>
-        <span class="kt">XCTAssert</span><span class="p">(</span><span class="n">app</span><span class="o">.</span><span class="n">staticTexts</span><span class="p">[</span><span class="s">"인기 게시글"</span><span class="p">]</span><span class="o">.</span><span class="nf">waitForExist</span><span class="p">())</span>
-</section>
-                      <section class="test-detail">/Users/admin/Desktop/DrDiary-iOS-v2/drdiary-iosUITests/UITestsSuite_006_Community.swift:54</section>
-                    
-                    
-                  </td>
-                </tr>
-              
             
               
-              <tr class="test failing odd"  onclick="toggleDetails('test_007_BoardTypeRank');">
+              <tr class="test passing odd"  onclick="toggleDetails('test_008_BoardTypeMeal');">
                 <td>
                   
-                </td>
-                <td><h3 class="title">test_007_BoardTypeRank</h3></td>
-              </tr>
-              
-                <tr class="details failing test_007_BoardTypeRank">
-                  <td></td>
-                  <td>
-                    
-                      <section class="test-detail reason">XCTAssertTrue failed</section>
-                    
-                    
-                      <section class="test-detail snippet">        <span class="kt">XCTAssert</span><span class="p">(</span><span class="n">app</span><span class="o">.</span><span class="n">staticTexts</span><span class="p">[</span><span class="s">"인기 게시글"</span><span class="p">]</span><span class="o">.</span><span class="nf">waitForExistenceThenTap</span><span class="p">())</span>
-        <span class="kt">XCTAssert</span><span class="p">(</span><span class="n">app</span><span class="o">.</span><span class="n">staticTexts</span><span class="p">[</span><span class="s">"인기 게시글"</span><span class="p">]</span><span class="o">.</span><span class="nf">waitForExist</span><span class="p">())</span>
-        <span class="kt">XCTAssert</span><span class="p">(</span><span class="n">app</span><span class="o">.</span><span class="n">tables</span><span class="o">.</span><span class="n">cells</span><span class="o">.</span><span class="nf">element</span><span class="p">(</span><span class="nv">boundBy</span><span class="p">:</span> <span class="mi">0</span><span class="p">)</span><span class="o">.</span><span class="n">staticTexts</span><span class="p">[</span><span class="s">"댓글"</span><span class="p">]</span><span class="o">.</span><span class="nf">waitForExistence</span><span class="p">(</span><span class="nv">timeout</span><span class="p">:</span> <span class="mi">30</span><span class="p">))</span>
-</section>
-                      <section class="test-detail">/Users/admin/Desktop/DrDiary-iOS-v2/drdiary-iosUITests/UITestsSuite_006_Community.swift:55</section>
-                    
-                    
-                  </td>
-                </tr>
-              
-            
-              
-              <tr class="test failing "  onclick="toggleDetails('test_007_BoardTypeRank');">
-                <td>
-                  
-                </td>
-                <td><h3 class="title">test_007_BoardTypeRank</h3></td>
-              </tr>
-              
-                <tr class="details failing test_007_BoardTypeRank">
-                  <td></td>
-                  <td>
-                    
-                      <section class="test-detail reason">XCTAssertTrue failed</section>
-                    
-                    
-                      <section class="test-detail snippet">        <span class="kt">XCTAssert</span><span class="p">(</span><span class="n">app</span><span class="o">.</span><span class="n">staticTexts</span><span class="p">[</span><span class="s">"인기 게시글"</span><span class="p">]</span><span class="o">.</span><span class="nf">waitForExist</span><span class="p">())</span>
-        <span class="kt">XCTAssert</span><span class="p">(</span><span class="n">app</span><span class="o">.</span><span class="n">tables</span><span class="o">.</span><span class="n">cells</span><span class="o">.</span><span class="nf">element</span><span class="p">(</span><span class="nv">boundBy</span><span class="p">:</span> <span class="mi">0</span><span class="p">)</span><span class="o">.</span><span class="n">staticTexts</span><span class="p">[</span><span class="s">"댓글"</span><span class="p">]</span><span class="o">.</span><span class="nf">waitForExistence</span><span class="p">(</span><span class="nv">timeout</span><span class="p">:</span> <span class="mi">30</span><span class="p">))</span>
-    <span class="p">}</span>
-</section>
-                      <section class="test-detail">/Users/admin/Desktop/DrDiary-iOS-v2/drdiary-iosUITests/UITestsSuite_006_Community.swift:56</section>
-                    
-                    
-                  </td>
-                </tr>
-              
-            
-              
-              <tr class="test failing odd"  onclick="toggleDetails('test_008_BoardTypeMeal');">
-                <td>
+                    <h3 class="time">6.802s</h3>
                   
                 </td>
                 <td><h3 class="title">test_008_BoardTypeMeal</h3></td>
               </tr>
               
-                <tr class="details failing test_008_BoardTypeMeal">
-                  <td></td>
-                  <td>
-                    
-                      <section class="test-detail reason">XCTAssertTrue failed</section>
-                    
-                    
-                      <section class="test-detail snippet">        <span class="n">app</span><span class="o">.</span><span class="n">buttons</span><span class="p">[</span><span class="s">"community main drawer"</span><span class="p">]</span><span class="o">.</span><span class="nf">waitForExistenceThenTap</span><span class="p">()</span>
-        <span class="kt">XCTAssert</span><span class="p">(</span><span class="n">app</span><span class="o">.</span><span class="n">staticTexts</span><span class="p">[</span><span class="s">"식단관리"</span><span class="p">]</span><span class="o">.</span><span class="nf">waitForExistenceThenTap</span><span class="p">())</span>
-        <span class="kt">XCTAssert</span><span class="p">(</span><span class="n">app</span><span class="o">.</span><span class="n">staticTexts</span><span class="p">[</span><span class="s">"식단관리"</span><span class="p">]</span><span class="o">.</span><span class="nf">waitForExist</span><span class="p">())</span>
-</section>
-                      <section class="test-detail">/Users/admin/Desktop/DrDiary-iOS-v2/drdiary-iosUITests/UITestsSuite_006_Community.swift:61</section>
-                    
-                    
-                  </td>
-                </tr>
-              
             
               
-              <tr class="test failing "  onclick="toggleDetails('test_008_BoardTypeMeal');">
+              <tr class="test passing "  onclick="toggleDetails('test_009_BoardTypeTip');">
                 <td>
                   
-                </td>
-                <td><h3 class="title">test_008_BoardTypeMeal</h3></td>
-              </tr>
-              
-                <tr class="details failing test_008_BoardTypeMeal">
-                  <td></td>
-                  <td>
-                    
-                      <section class="test-detail reason">XCTAssertTrue failed</section>
-                    
-                    
-                      <section class="test-detail snippet">        <span class="kt">XCTAssert</span><span class="p">(</span><span class="n">app</span><span class="o">.</span><span class="n">staticTexts</span><span class="p">[</span><span class="s">"식단관리"</span><span class="p">]</span><span class="o">.</span><span class="nf">waitForExistenceThenTap</span><span class="p">())</span>
-        <span class="kt">XCTAssert</span><span class="p">(</span><span class="n">app</span><span class="o">.</span><span class="n">staticTexts</span><span class="p">[</span><span class="s">"식단관리"</span><span class="p">]</span><span class="o">.</span><span class="nf">waitForExist</span><span class="p">())</span>
-        <span class="kt">XCTAssert</span><span class="p">(</span><span class="n">app</span><span class="o">.</span><span class="n">tables</span><span class="o">.</span><span class="n">cells</span><span class="o">.</span><span class="nf">element</span><span class="p">(</span><span class="nv">boundBy</span><span class="p">:</span> <span class="mi">0</span><span class="p">)</span><span class="o">.</span><span class="n">staticTexts</span><span class="p">[</span><span class="s">"댓글"</span><span class="p">]</span><span class="o">.</span><span class="nf">waitForExistence</span><span class="p">(</span><span class="nv">timeout</span><span class="p">:</span> <span class="mi">30</span><span class="p">))</span>
-</section>
-                      <section class="test-detail">/Users/admin/Desktop/DrDiary-iOS-v2/drdiary-iosUITests/UITestsSuite_006_Community.swift:62</section>
-                    
-                    
-                  </td>
-                </tr>
-              
-            
-              
-              <tr class="test failing odd"  onclick="toggleDetails('test_008_BoardTypeMeal');">
-                <td>
-                  
-                </td>
-                <td><h3 class="title">test_008_BoardTypeMeal</h3></td>
-              </tr>
-              
-                <tr class="details failing test_008_BoardTypeMeal">
-                  <td></td>
-                  <td>
-                    
-                      <section class="test-detail reason">XCTAssertTrue failed</section>
-                    
-                    
-                      <section class="test-detail snippet">        <span class="kt">XCTAssert</span><span class="p">(</span><span class="n">app</span><span class="o">.</span><span class="n">staticTexts</span><span class="p">[</span><span class="s">"식단관리"</span><span class="p">]</span><span class="o">.</span><span class="nf">waitForExist</span><span class="p">())</span>
-        <span class="kt">XCTAssert</span><span class="p">(</span><span class="n">app</span><span class="o">.</span><span class="n">tables</span><span class="o">.</span><span class="n">cells</span><span class="o">.</span><span class="nf">element</span><span class="p">(</span><span class="nv">boundBy</span><span class="p">:</span> <span class="mi">0</span><span class="p">)</span><span class="o">.</span><span class="n">staticTexts</span><span class="p">[</span><span class="s">"댓글"</span><span class="p">]</span><span class="o">.</span><span class="nf">waitForExistence</span><span class="p">(</span><span class="nv">timeout</span><span class="p">:</span> <span class="mi">30</span><span class="p">))</span>
-    <span class="p">}</span>
-</section>
-                      <section class="test-detail">/Users/admin/Desktop/DrDiary-iOS-v2/drdiary-iosUITests/UITestsSuite_006_Community.swift:63</section>
-                    
-                    
-                  </td>
-                </tr>
-              
-            
-              
-              <tr class="test failing "  onclick="toggleDetails('test_009_BoardTypeTip');">
-                <td>
+                    <h3 class="time">10.186s</h3>
                   
                 </td>
                 <td><h3 class="title">test_009_BoardTypeTip</h3></td>
               </tr>
               
-                <tr class="details failing test_009_BoardTypeTip">
-                  <td></td>
-                  <td>
-                    
-                      <section class="test-detail reason">XCTAssertTrue failed</section>
-                    
-                    
-                      <section class="test-detail snippet">        <span class="n">app</span><span class="o">.</span><span class="n">buttons</span><span class="p">[</span><span class="s">"community main drawer"</span><span class="p">]</span><span class="o">.</span><span class="nf">waitForExistenceThenTap</span><span class="p">()</span>
-        <span class="kt">XCTAssert</span><span class="p">(</span><span class="n">app</span><span class="o">.</span><span class="n">staticTexts</span><span class="p">[</span><span class="s">"관리팁"</span><span class="p">]</span><span class="o">.</span><span class="nf">waitForExistenceThenTap</span><span class="p">())</span>
-        <span class="kt">XCTAssert</span><span class="p">(</span><span class="n">app</span><span class="o">.</span><span class="n">staticTexts</span><span class="p">[</span><span class="s">"관리팁"</span><span class="p">]</span><span class="o">.</span><span class="nf">waitForExist</span><span class="p">())</span>
-</section>
-                      <section class="test-detail">/Users/admin/Desktop/DrDiary-iOS-v2/drdiary-iosUITests/UITestsSuite_006_Community.swift:68</section>
-                    
-                    
-                  </td>
-                </tr>
-              
             
               
-              <tr class="test failing odd"  onclick="toggleDetails('test_009_BoardTypeTip');">
+              <tr class="test passing odd"  onclick="toggleDetails('test_010_BoardTypeDevice');">
                 <td>
                   
-                </td>
-                <td><h3 class="title">test_009_BoardTypeTip</h3></td>
-              </tr>
-              
-                <tr class="details failing test_009_BoardTypeTip">
-                  <td></td>
-                  <td>
-                    
-                      <section class="test-detail reason">XCTAssertTrue failed</section>
-                    
-                    
-                      <section class="test-detail snippet">        <span class="kt">XCTAssert</span><span class="p">(</span><span class="n">app</span><span class="o">.</span><span class="n">staticTexts</span><span class="p">[</span><span class="s">"관리팁"</span><span class="p">]</span><span class="o">.</span><span class="nf">waitForExistenceThenTap</span><span class="p">())</span>
-        <span class="kt">XCTAssert</span><span class="p">(</span><span class="n">app</span><span class="o">.</span><span class="n">staticTexts</span><span class="p">[</span><span class="s">"관리팁"</span><span class="p">]</span><span class="o">.</span><span class="nf">waitForExist</span><span class="p">())</span>
-        <span class="kt">XCTAssert</span><span class="p">(</span><span class="n">app</span><span class="o">.</span><span class="n">tables</span><span class="o">.</span><span class="n">cells</span><span class="o">.</span><span class="nf">element</span><span class="p">(</span><span class="nv">boundBy</span><span class="p">:</span> <span class="mi">0</span><span class="p">)</span><span class="o">.</span><span class="n">staticTexts</span><span class="p">[</span><span class="s">"댓글"</span><span class="p">]</span><span class="o">.</span><span class="nf">waitForExistence</span><span class="p">(</span><span class="nv">timeout</span><span class="p">:</span> <span class="mi">30</span><span class="p">))</span>
-</section>
-                      <section class="test-detail">/Users/admin/Desktop/DrDiary-iOS-v2/drdiary-iosUITests/UITestsSuite_006_Community.swift:69</section>
-                    
-                    
-                  </td>
-                </tr>
-              
-            
-              
-              <tr class="test failing "  onclick="toggleDetails('test_009_BoardTypeTip');">
-                <td>
-                  
-                </td>
-                <td><h3 class="title">test_009_BoardTypeTip</h3></td>
-              </tr>
-              
-                <tr class="details failing test_009_BoardTypeTip">
-                  <td></td>
-                  <td>
-                    
-                      <section class="test-detail reason">XCTAssertTrue failed</section>
-                    
-                    
-                      <section class="test-detail snippet">        <span class="kt">XCTAssert</span><span class="p">(</span><span class="n">app</span><span class="o">.</span><span class="n">staticTexts</span><span class="p">[</span><span class="s">"관리팁"</span><span class="p">]</span><span class="o">.</span><span class="nf">waitForExist</span><span class="p">())</span>
-        <span class="kt">XCTAssert</span><span class="p">(</span><span class="n">app</span><span class="o">.</span><span class="n">tables</span><span class="o">.</span><span class="n">cells</span><span class="o">.</span><span class="nf">element</span><span class="p">(</span><span class="nv">boundBy</span><span class="p">:</span> <span class="mi">0</span><span class="p">)</span><span class="o">.</span><span class="n">staticTexts</span><span class="p">[</span><span class="s">"댓글"</span><span class="p">]</span><span class="o">.</span><span class="nf">waitForExistence</span><span class="p">(</span><span class="nv">timeout</span><span class="p">:</span> <span class="mi">30</span><span class="p">))</span>
-    <span class="p">}</span>
-</section>
-                      <section class="test-detail">/Users/admin/Desktop/DrDiary-iOS-v2/drdiary-iosUITests/UITestsSuite_006_Community.swift:70</section>
-                    
-                    
-                  </td>
-                </tr>
-              
-            
-              
-              <tr class="test failing odd"  onclick="toggleDetails('test_010_BoardTypeDevice');">
-                <td>
+                    <h3 class="time">14.649s</h3>
                   
                 </td>
                 <td><h3 class="title">test_010_BoardTypeDevice</h3></td>
               </tr>
               
-                <tr class="details failing test_010_BoardTypeDevice">
-                  <td></td>
-                  <td>
-                    
-                      <section class="test-detail reason">XCTAssertTrue failed</section>
-                    
-                    
-                      <section class="test-detail snippet">        <span class="n">app</span><span class="o">.</span><span class="n">buttons</span><span class="p">[</span><span class="s">"community main drawer"</span><span class="p">]</span><span class="o">.</span><span class="nf">waitForExistenceThenTap</span><span class="p">()</span>
-        <span class="kt">XCTAssert</span><span class="p">(</span><span class="n">app</span><span class="o">.</span><span class="n">staticTexts</span><span class="p">[</span><span class="s">"혈당기"</span><span class="p">]</span><span class="o">.</span><span class="nf">waitForExistenceThenTap</span><span class="p">())</span>
-        <span class="kt">XCTAssert</span><span class="p">(</span><span class="n">app</span><span class="o">.</span><span class="n">staticTexts</span><span class="p">[</span><span class="s">"혈당기"</span><span class="p">]</span><span class="o">.</span><span class="nf">waitForExist</span><span class="p">())</span>
-</section>
-                      <section class="test-detail">/Users/admin/Desktop/DrDiary-iOS-v2/drdiary-iosUITests/UITestsSuite_006_Community.swift:75</section>
-                    
-                    
-                  </td>
-                </tr>
-              
             
               
-              <tr class="test failing "  onclick="toggleDetails('test_010_BoardTypeDevice');">
+              <tr class="test passing "  onclick="toggleDetails('test_011_BoardTypeHospital');">
                 <td>
                   
-                </td>
-                <td><h3 class="title">test_010_BoardTypeDevice</h3></td>
-              </tr>
-              
-                <tr class="details failing test_010_BoardTypeDevice">
-                  <td></td>
-                  <td>
-                    
-                      <section class="test-detail reason">XCTAssertTrue failed</section>
-                    
-                    
-                      <section class="test-detail snippet">        <span class="kt">XCTAssert</span><span class="p">(</span><span class="n">app</span><span class="o">.</span><span class="n">staticTexts</span><span class="p">[</span><span class="s">"혈당기"</span><span class="p">]</span><span class="o">.</span><span class="nf">waitForExistenceThenTap</span><span class="p">())</span>
-        <span class="kt">XCTAssert</span><span class="p">(</span><span class="n">app</span><span class="o">.</span><span class="n">staticTexts</span><span class="p">[</span><span class="s">"혈당기"</span><span class="p">]</span><span class="o">.</span><span class="nf">waitForExist</span><span class="p">())</span>
-        <span class="kt">XCTAssert</span><span class="p">(</span><span class="n">app</span><span class="o">.</span><span class="n">tables</span><span class="o">.</span><span class="n">cells</span><span class="o">.</span><span class="nf">element</span><span class="p">(</span><span class="nv">boundBy</span><span class="p">:</span> <span class="mi">0</span><span class="p">)</span><span class="o">.</span><span class="n">staticTexts</span><span class="p">[</span><span class="s">"댓글"</span><span class="p">]</span><span class="o">.</span><span class="nf">waitForExistence</span><span class="p">(</span><span class="nv">timeout</span><span class="p">:</span> <span class="mi">30</span><span class="p">))</span>
-</section>
-                      <section class="test-detail">/Users/admin/Desktop/DrDiary-iOS-v2/drdiary-iosUITests/UITestsSuite_006_Community.swift:76</section>
-                    
-                    
-                  </td>
-                </tr>
-              
-            
-              
-              <tr class="test failing odd"  onclick="toggleDetails('test_010_BoardTypeDevice');">
-                <td>
-                  
-                </td>
-                <td><h3 class="title">test_010_BoardTypeDevice</h3></td>
-              </tr>
-              
-                <tr class="details failing test_010_BoardTypeDevice">
-                  <td></td>
-                  <td>
-                    
-                      <section class="test-detail reason">XCTAssertTrue failed</section>
-                    
-                    
-                      <section class="test-detail snippet">        <span class="kt">XCTAssert</span><span class="p">(</span><span class="n">app</span><span class="o">.</span><span class="n">staticTexts</span><span class="p">[</span><span class="s">"혈당기"</span><span class="p">]</span><span class="o">.</span><span class="nf">waitForExist</span><span class="p">())</span>
-        <span class="kt">XCTAssert</span><span class="p">(</span><span class="n">app</span><span class="o">.</span><span class="n">tables</span><span class="o">.</span><span class="n">cells</span><span class="o">.</span><span class="nf">element</span><span class="p">(</span><span class="nv">boundBy</span><span class="p">:</span> <span class="mi">0</span><span class="p">)</span><span class="o">.</span><span class="n">staticTexts</span><span class="p">[</span><span class="s">"댓글"</span><span class="p">]</span><span class="o">.</span><span class="nf">waitForExistence</span><span class="p">(</span><span class="nv">timeout</span><span class="p">:</span> <span class="mi">30</span><span class="p">))</span>
-    <span class="p">}</span>
-</section>
-                      <section class="test-detail">/Users/admin/Desktop/DrDiary-iOS-v2/drdiary-iosUITests/UITestsSuite_006_Community.swift:77</section>
-                    
-                    
-                  </td>
-                </tr>
-              
-            
-              
-              <tr class="test failing "  onclick="toggleDetails('test_011_BoardTypeHospital');">
-                <td>
+                    <h3 class="time">11.881s</h3>
                   
                 </td>
                 <td><h3 class="title">test_011_BoardTypeHospital</h3></td>
               </tr>
               
-                <tr class="details failing test_011_BoardTypeHospital">
-                  <td></td>
-                  <td>
-                    
-                      <section class="test-detail reason">XCTAssertTrue failed</section>
-                    
-                    
-                      <section class="test-detail snippet">        <span class="n">app</span><span class="o">.</span><span class="n">buttons</span><span class="p">[</span><span class="s">"community main drawer"</span><span class="p">]</span><span class="o">.</span><span class="nf">waitForExistenceThenTap</span><span class="p">()</span>
-        <span class="kt">XCTAssert</span><span class="p">(</span><span class="n">app</span><span class="o">.</span><span class="n">staticTexts</span><span class="p">[</span><span class="s">"병원"</span><span class="p">]</span><span class="o">.</span><span class="nf">waitForExistenceThenTap</span><span class="p">())</span>
-        <span class="kt">XCTAssert</span><span class="p">(</span><span class="n">app</span><span class="o">.</span><span class="n">staticTexts</span><span class="p">[</span><span class="s">"병원"</span><span class="p">]</span><span class="o">.</span><span class="nf">waitForExist</span><span class="p">())</span>
-</section>
-                      <section class="test-detail">/Users/admin/Desktop/DrDiary-iOS-v2/drdiary-iosUITests/UITestsSuite_006_Community.swift:82</section>
-                    
-                    
-                  </td>
-                </tr>
-              
             
               
-              <tr class="test failing odd"  onclick="toggleDetails('test_011_BoardTypeHospital');">
+              <tr class="test passing odd"  onclick="toggleDetails('test_012_BoardTypeSnack');">
                 <td>
                   
-                </td>
-                <td><h3 class="title">test_011_BoardTypeHospital</h3></td>
-              </tr>
-              
-                <tr class="details failing test_011_BoardTypeHospital">
-                  <td></td>
-                  <td>
-                    
-                      <section class="test-detail reason">XCTAssertTrue failed</section>
-                    
-                    
-                      <section class="test-detail snippet">        <span class="kt">XCTAssert</span><span class="p">(</span><span class="n">app</span><span class="o">.</span><span class="n">staticTexts</span><span class="p">[</span><span class="s">"병원"</span><span class="p">]</span><span class="o">.</span><span class="nf">waitForExistenceThenTap</span><span class="p">())</span>
-        <span class="kt">XCTAssert</span><span class="p">(</span><span class="n">app</span><span class="o">.</span><span class="n">staticTexts</span><span class="p">[</span><span class="s">"병원"</span><span class="p">]</span><span class="o">.</span><span class="nf">waitForExist</span><span class="p">())</span>
-        <span class="kt">XCTAssert</span><span class="p">(</span><span class="n">app</span><span class="o">.</span><span class="n">tables</span><span class="o">.</span><span class="n">cells</span><span class="o">.</span><span class="nf">element</span><span class="p">(</span><span class="nv">boundBy</span><span class="p">:</span> <span class="mi">0</span><span class="p">)</span><span class="o">.</span><span class="n">staticTexts</span><span class="p">[</span><span class="s">"댓글"</span><span class="p">]</span><span class="o">.</span><span class="nf">waitForExistence</span><span class="p">(</span><span class="nv">timeout</span><span class="p">:</span> <span class="mi">30</span><span class="p">))</span>
-</section>
-                      <section class="test-detail">/Users/admin/Desktop/DrDiary-iOS-v2/drdiary-iosUITests/UITestsSuite_006_Community.swift:83</section>
-                    
-                    
-                  </td>
-                </tr>
-              
-            
-              
-              <tr class="test failing "  onclick="toggleDetails('test_011_BoardTypeHospital');">
-                <td>
-                  
-                </td>
-                <td><h3 class="title">test_011_BoardTypeHospital</h3></td>
-              </tr>
-              
-                <tr class="details failing test_011_BoardTypeHospital">
-                  <td></td>
-                  <td>
-                    
-                      <section class="test-detail reason">XCTAssertTrue failed</section>
-                    
-                    
-                      <section class="test-detail snippet">        <span class="kt">XCTAssert</span><span class="p">(</span><span class="n">app</span><span class="o">.</span><span class="n">staticTexts</span><span class="p">[</span><span class="s">"병원"</span><span class="p">]</span><span class="o">.</span><span class="nf">waitForExist</span><span class="p">())</span>
-        <span class="kt">XCTAssert</span><span class="p">(</span><span class="n">app</span><span class="o">.</span><span class="n">tables</span><span class="o">.</span><span class="n">cells</span><span class="o">.</span><span class="nf">element</span><span class="p">(</span><span class="nv">boundBy</span><span class="p">:</span> <span class="mi">0</span><span class="p">)</span><span class="o">.</span><span class="n">staticTexts</span><span class="p">[</span><span class="s">"댓글"</span><span class="p">]</span><span class="o">.</span><span class="nf">waitForExistence</span><span class="p">(</span><span class="nv">timeout</span><span class="p">:</span> <span class="mi">30</span><span class="p">))</span>
-    <span class="p">}</span>
-</section>
-                      <section class="test-detail">/Users/admin/Desktop/DrDiary-iOS-v2/drdiary-iosUITests/UITestsSuite_006_Community.swift:84</section>
-                    
-                    
-                  </td>
-                </tr>
-              
-            
-              
-              <tr class="test failing odd"  onclick="toggleDetails('test_012_BoardTypeSnack');">
-                <td>
+                    <h3 class="time">9.823s</h3>
                   
                 </td>
                 <td><h3 class="title">test_012_BoardTypeSnack</h3></td>
               </tr>
               
-                <tr class="details failing test_012_BoardTypeSnack">
-                  <td></td>
-                  <td>
-                    
-                      <section class="test-detail reason">XCTAssertTrue failed</section>
-                    
-                    
-                      <section class="test-detail snippet">        <span class="n">app</span><span class="o">.</span><span class="n">buttons</span><span class="p">[</span><span class="s">"community main drawer"</span><span class="p">]</span><span class="o">.</span><span class="nf">waitForExistenceThenTap</span><span class="p">()</span>
-        <span class="kt">XCTAssert</span><span class="p">(</span><span class="n">app</span><span class="o">.</span><span class="n">staticTexts</span><span class="p">[</span><span class="s">"간식"</span><span class="p">]</span><span class="o">.</span><span class="nf">waitForExistenceThenTap</span><span class="p">())</span>
-        <span class="kt">XCTAssert</span><span class="p">(</span><span class="n">app</span><span class="o">.</span><span class="n">staticTexts</span><span class="p">[</span><span class="s">"간식"</span><span class="p">]</span><span class="o">.</span><span class="nf">waitForExist</span><span class="p">())</span>
-</section>
-                      <section class="test-detail">/Users/admin/Desktop/DrDiary-iOS-v2/drdiary-iosUITests/UITestsSuite_006_Community.swift:89</section>
-                    
-                    
-                  </td>
-                </tr>
-              
             
               
-              <tr class="test failing "  onclick="toggleDetails('test_012_BoardTypeSnack');">
+              <tr class="test passing "  onclick="toggleDetails('test_013_BoardTypeExercise');">
                 <td>
                   
-                </td>
-                <td><h3 class="title">test_012_BoardTypeSnack</h3></td>
-              </tr>
-              
-                <tr class="details failing test_012_BoardTypeSnack">
-                  <td></td>
-                  <td>
-                    
-                      <section class="test-detail reason">XCTAssertTrue failed</section>
-                    
-                    
-                      <section class="test-detail snippet">        <span class="kt">XCTAssert</span><span class="p">(</span><span class="n">app</span><span class="o">.</span><span class="n">staticTexts</span><span class="p">[</span><span class="s">"간식"</span><span class="p">]</span><span class="o">.</span><span class="nf">waitForExistenceThenTap</span><span class="p">())</span>
-        <span class="kt">XCTAssert</span><span class="p">(</span><span class="n">app</span><span class="o">.</span><span class="n">staticTexts</span><span class="p">[</span><span class="s">"간식"</span><span class="p">]</span><span class="o">.</span><span class="nf">waitForExist</span><span class="p">())</span>
-        <span class="kt">XCTAssert</span><span class="p">(</span><span class="n">app</span><span class="o">.</span><span class="n">tables</span><span class="o">.</span><span class="n">cells</span><span class="o">.</span><span class="nf">element</span><span class="p">(</span><span class="nv">boundBy</span><span class="p">:</span> <span class="mi">0</span><span class="p">)</span><span class="o">.</span><span class="n">staticTexts</span><span class="p">[</span><span class="s">"댓글"</span><span class="p">]</span><span class="o">.</span><span class="nf">waitForExistence</span><span class="p">(</span><span class="nv">timeout</span><span class="p">:</span> <span class="mi">30</span><span class="p">))</span>
-</section>
-                      <section class="test-detail">/Users/admin/Desktop/DrDiary-iOS-v2/drdiary-iosUITests/UITestsSuite_006_Community.swift:90</section>
-                    
-                    
-                  </td>
-                </tr>
-              
-            
-              
-              <tr class="test failing odd"  onclick="toggleDetails('test_012_BoardTypeSnack');">
-                <td>
-                  
-                </td>
-                <td><h3 class="title">test_012_BoardTypeSnack</h3></td>
-              </tr>
-              
-                <tr class="details failing test_012_BoardTypeSnack">
-                  <td></td>
-                  <td>
-                    
-                      <section class="test-detail reason">XCTAssertTrue failed</section>
-                    
-                    
-                      <section class="test-detail snippet">        <span class="kt">XCTAssert</span><span class="p">(</span><span class="n">app</span><span class="o">.</span><span class="n">staticTexts</span><span class="p">[</span><span class="s">"간식"</span><span class="p">]</span><span class="o">.</span><span class="nf">waitForExist</span><span class="p">())</span>
-        <span class="kt">XCTAssert</span><span class="p">(</span><span class="n">app</span><span class="o">.</span><span class="n">tables</span><span class="o">.</span><span class="n">cells</span><span class="o">.</span><span class="nf">element</span><span class="p">(</span><span class="nv">boundBy</span><span class="p">:</span> <span class="mi">0</span><span class="p">)</span><span class="o">.</span><span class="n">staticTexts</span><span class="p">[</span><span class="s">"댓글"</span><span class="p">]</span><span class="o">.</span><span class="nf">waitForExistence</span><span class="p">(</span><span class="nv">timeout</span><span class="p">:</span> <span class="mi">30</span><span class="p">))</span>
-    <span class="p">}</span>
-</section>
-                      <section class="test-detail">/Users/admin/Desktop/DrDiary-iOS-v2/drdiary-iosUITests/UITestsSuite_006_Community.swift:91</section>
-                    
-                    
-                  </td>
-                </tr>
-              
-            
-              
-              <tr class="test failing "  onclick="toggleDetails('test_013_BoardTypeExercise');">
-                <td>
+                    <h3 class="time">16.924s</h3>
                   
                 </td>
                 <td><h3 class="title">test_013_BoardTypeExercise</h3></td>
               </tr>
               
-                <tr class="details failing test_013_BoardTypeExercise">
-                  <td></td>
-                  <td>
-                    
-                      <section class="test-detail reason">XCTAssertTrue failed</section>
-                    
-                    
-                      <section class="test-detail snippet">        <span class="n">app</span><span class="o">.</span><span class="n">buttons</span><span class="p">[</span><span class="s">"community main drawer"</span><span class="p">]</span><span class="o">.</span><span class="nf">waitForExistenceThenTap</span><span class="p">()</span>
-        <span class="kt">XCTAssert</span><span class="p">(</span><span class="n">app</span><span class="o">.</span><span class="n">staticTexts</span><span class="p">[</span><span class="s">"운동"</span><span class="p">]</span><span class="o">.</span><span class="nf">waitForExistenceThenTap</span><span class="p">())</span>
-        <span class="kt">XCTAssert</span><span class="p">(</span><span class="n">app</span><span class="o">.</span><span class="n">staticTexts</span><span class="p">[</span><span class="s">"운동"</span><span class="p">]</span><span class="o">.</span><span class="nf">waitForExist</span><span class="p">())</span>
-</section>
-                      <section class="test-detail">/Users/admin/Desktop/DrDiary-iOS-v2/drdiary-iosUITests/UITestsSuite_006_Community.swift:96</section>
-                    
-                    
-                  </td>
-                </tr>
-              
             
               
-              <tr class="test failing odd"  onclick="toggleDetails('test_013_BoardTypeExercise');">
+              <tr class="test passing odd"  onclick="toggleDetails('test_014_BoardTypeComplications');">
                 <td>
                   
-                </td>
-                <td><h3 class="title">test_013_BoardTypeExercise</h3></td>
-              </tr>
-              
-                <tr class="details failing test_013_BoardTypeExercise">
-                  <td></td>
-                  <td>
-                    
-                      <section class="test-detail reason">XCTAssertTrue failed</section>
-                    
-                    
-                      <section class="test-detail snippet">        <span class="kt">XCTAssert</span><span class="p">(</span><span class="n">app</span><span class="o">.</span><span class="n">staticTexts</span><span class="p">[</span><span class="s">"운동"</span><span class="p">]</span><span class="o">.</span><span class="nf">waitForExistenceThenTap</span><span class="p">())</span>
-        <span class="kt">XCTAssert</span><span class="p">(</span><span class="n">app</span><span class="o">.</span><span class="n">staticTexts</span><span class="p">[</span><span class="s">"운동"</span><span class="p">]</span><span class="o">.</span><span class="nf">waitForExist</span><span class="p">())</span>
-        <span class="kt">XCTAssert</span><span class="p">(</span><span class="n">app</span><span class="o">.</span><span class="n">tables</span><span class="o">.</span><span class="n">cells</span><span class="o">.</span><span class="nf">element</span><span class="p">(</span><span class="nv">boundBy</span><span class="p">:</span> <span class="mi">0</span><span class="p">)</span><span class="o">.</span><span class="n">staticTexts</span><span class="p">[</span><span class="s">"댓글"</span><span class="p">]</span><span class="o">.</span><span class="nf">waitForExistence</span><span class="p">(</span><span class="nv">timeout</span><span class="p">:</span> <span class="mi">30</span><span class="p">))</span>
-</section>
-                      <section class="test-detail">/Users/admin/Desktop/DrDiary-iOS-v2/drdiary-iosUITests/UITestsSuite_006_Community.swift:97</section>
-                    
-                    
-                  </td>
-                </tr>
-              
-            
-              
-              <tr class="test failing "  onclick="toggleDetails('test_013_BoardTypeExercise');">
-                <td>
-                  
-                </td>
-                <td><h3 class="title">test_013_BoardTypeExercise</h3></td>
-              </tr>
-              
-                <tr class="details failing test_013_BoardTypeExercise">
-                  <td></td>
-                  <td>
-                    
-                      <section class="test-detail reason">XCTAssertTrue failed</section>
-                    
-                    
-                      <section class="test-detail snippet">        <span class="kt">XCTAssert</span><span class="p">(</span><span class="n">app</span><span class="o">.</span><span class="n">staticTexts</span><span class="p">[</span><span class="s">"운동"</span><span class="p">]</span><span class="o">.</span><span class="nf">waitForExist</span><span class="p">())</span>
-        <span class="kt">XCTAssert</span><span class="p">(</span><span class="n">app</span><span class="o">.</span><span class="n">tables</span><span class="o">.</span><span class="n">cells</span><span class="o">.</span><span class="nf">element</span><span class="p">(</span><span class="nv">boundBy</span><span class="p">:</span> <span class="mi">0</span><span class="p">)</span><span class="o">.</span><span class="n">staticTexts</span><span class="p">[</span><span class="s">"댓글"</span><span class="p">]</span><span class="o">.</span><span class="nf">waitForExistence</span><span class="p">(</span><span class="nv">timeout</span><span class="p">:</span> <span class="mi">30</span><span class="p">))</span>
-    <span class="p">}</span>
-</section>
-                      <section class="test-detail">/Users/admin/Desktop/DrDiary-iOS-v2/drdiary-iosUITests/UITestsSuite_006_Community.swift:98</section>
-                    
-                    
-                  </td>
-                </tr>
-              
-            
-              
-              <tr class="test failing odd"  onclick="toggleDetails('test_014_BoardTypeComplications');">
-                <td>
+                    <h3 class="time">24.463s</h3>
                   
                 </td>
                 <td><h3 class="title">test_014_BoardTypeComplications</h3></td>
               </tr>
               
-                <tr class="details failing test_014_BoardTypeComplications">
-                  <td></td>
-                  <td>
-                    
-                      <section class="test-detail reason">XCTAssertTrue failed</section>
-                    
-                    
-                      <section class="test-detail snippet">        <span class="n">app</span><span class="o">.</span><span class="n">buttons</span><span class="p">[</span><span class="s">"community main drawer"</span><span class="p">]</span><span class="o">.</span><span class="nf">waitForExistenceThenTap</span><span class="p">()</span>
-        <span class="kt">XCTAssert</span><span class="p">(</span><span class="n">app</span><span class="o">.</span><span class="n">staticTexts</span><span class="p">[</span><span class="s">"합병증"</span><span class="p">]</span><span class="o">.</span><span class="nf">waitForExistenceThenTap</span><span class="p">())</span>
-        <span class="kt">XCTAssert</span><span class="p">(</span><span class="n">app</span><span class="o">.</span><span class="n">staticTexts</span><span class="p">[</span><span class="s">"합병증"</span><span class="p">]</span><span class="o">.</span><span class="nf">waitForExist</span><span class="p">())</span>
-</section>
-                      <section class="test-detail">/Users/admin/Desktop/DrDiary-iOS-v2/drdiary-iosUITests/UITestsSuite_006_Community.swift:103</section>
-                    
-                    
-                  </td>
-                </tr>
-              
             
               
-              <tr class="test failing "  onclick="toggleDetails('test_014_BoardTypeComplications');">
+              <tr class="test passing "  onclick="toggleDetails('test_016_BoardTypeCounseling');">
                 <td>
                   
-                </td>
-                <td><h3 class="title">test_014_BoardTypeComplications</h3></td>
-              </tr>
-              
-                <tr class="details failing test_014_BoardTypeComplications">
-                  <td></td>
-                  <td>
-                    
-                      <section class="test-detail reason">XCTAssertTrue failed</section>
-                    
-                    
-                      <section class="test-detail snippet">        <span class="kt">XCTAssert</span><span class="p">(</span><span class="n">app</span><span class="o">.</span><span class="n">staticTexts</span><span class="p">[</span><span class="s">"합병증"</span><span class="p">]</span><span class="o">.</span><span class="nf">waitForExistenceThenTap</span><span class="p">())</span>
-        <span class="kt">XCTAssert</span><span class="p">(</span><span class="n">app</span><span class="o">.</span><span class="n">staticTexts</span><span class="p">[</span><span class="s">"합병증"</span><span class="p">]</span><span class="o">.</span><span class="nf">waitForExist</span><span class="p">())</span>
-        <span class="kt">XCTAssert</span><span class="p">(</span><span class="n">app</span><span class="o">.</span><span class="n">tables</span><span class="o">.</span><span class="n">cells</span><span class="o">.</span><span class="nf">element</span><span class="p">(</span><span class="nv">boundBy</span><span class="p">:</span> <span class="mi">0</span><span class="p">)</span><span class="o">.</span><span class="n">staticTexts</span><span class="p">[</span><span class="s">"댓글"</span><span class="p">]</span><span class="o">.</span><span class="nf">waitForExistence</span><span class="p">(</span><span class="nv">timeout</span><span class="p">:</span> <span class="mi">50</span><span class="p">))</span>
-</section>
-                      <section class="test-detail">/Users/admin/Desktop/DrDiary-iOS-v2/drdiary-iosUITests/UITestsSuite_006_Community.swift:104</section>
-                    
-                    
-                  </td>
-                </tr>
-              
-            
-              
-              <tr class="test failing odd"  onclick="toggleDetails('test_014_BoardTypeComplications');">
-                <td>
-                  
-                </td>
-                <td><h3 class="title">test_014_BoardTypeComplications</h3></td>
-              </tr>
-              
-                <tr class="details failing test_014_BoardTypeComplications">
-                  <td></td>
-                  <td>
-                    
-                      <section class="test-detail reason">XCTAssertTrue failed</section>
-                    
-                    
-                      <section class="test-detail snippet">        <span class="kt">XCTAssert</span><span class="p">(</span><span class="n">app</span><span class="o">.</span><span class="n">staticTexts</span><span class="p">[</span><span class="s">"합병증"</span><span class="p">]</span><span class="o">.</span><span class="nf">waitForExist</span><span class="p">())</span>
-        <span class="kt">XCTAssert</span><span class="p">(</span><span class="n">app</span><span class="o">.</span><span class="n">tables</span><span class="o">.</span><span class="n">cells</span><span class="o">.</span><span class="nf">element</span><span class="p">(</span><span class="nv">boundBy</span><span class="p">:</span> <span class="mi">0</span><span class="p">)</span><span class="o">.</span><span class="n">staticTexts</span><span class="p">[</span><span class="s">"댓글"</span><span class="p">]</span><span class="o">.</span><span class="nf">waitForExistence</span><span class="p">(</span><span class="nv">timeout</span><span class="p">:</span> <span class="mi">50</span><span class="p">))</span>
-    <span class="p">}</span>
-</section>
-                      <section class="test-detail">/Users/admin/Desktop/DrDiary-iOS-v2/drdiary-iosUITests/UITestsSuite_006_Community.swift:105</section>
-                    
-                    
-                  </td>
-                </tr>
-              
-            
-              
-              <tr class="test failing "  onclick="toggleDetails('test_016_BoardTypeCounseling');">
-                <td>
+                    <h3 class="time">6.469s</h3>
                   
                 </td>
                 <td><h3 class="title">test_016_BoardTypeCounseling</h3></td>
               </tr>
               
-                <tr class="details failing test_016_BoardTypeCounseling">
-                  <td></td>
-                  <td>
-                    
-                      <section class="test-detail reason">XCTAssertTrue failed</section>
-                    
-                    
-                      <section class="test-detail snippet">        <span class="n">app</span><span class="o">.</span><span class="n">buttons</span><span class="p">[</span><span class="s">"community main drawer"</span><span class="p">]</span><span class="o">.</span><span class="nf">waitForExistenceThenTap</span><span class="p">()</span>
-        <span class="kt">XCTAssert</span><span class="p">(</span><span class="n">app</span><span class="o">.</span><span class="n">staticTexts</span><span class="p">[</span><span class="s">"고민 상담"</span><span class="p">]</span><span class="o">.</span><span class="nf">waitForExistenceThenTap</span><span class="p">())</span>
-        <span class="kt">XCTAssert</span><span class="p">(</span><span class="n">app</span><span class="o">.</span><span class="n">staticTexts</span><span class="p">[</span><span class="s">"고민 상담"</span><span class="p">]</span><span class="o">.</span><span class="nf">waitForExist</span><span class="p">())</span>
-</section>
-                      <section class="test-detail">/Users/admin/Desktop/DrDiary-iOS-v2/drdiary-iosUITests/UITestsSuite_006_Community.swift:117</section>
-                    
-                    
-                  </td>
-                </tr>
-              
             
               
-              <tr class="test failing odd"  onclick="toggleDetails('test_016_BoardTypeCounseling');">
+              <tr class="test passing odd"  onclick="toggleDetails('test_019_MoveToSearch');">
                 <td>
                   
-                </td>
-                <td><h3 class="title">test_016_BoardTypeCounseling</h3></td>
-              </tr>
-              
-                <tr class="details failing test_016_BoardTypeCounseling">
-                  <td></td>
-                  <td>
-                    
-                      <section class="test-detail reason">XCTAssertTrue failed</section>
-                    
-                    
-                      <section class="test-detail snippet">        <span class="kt">XCTAssert</span><span class="p">(</span><span class="n">app</span><span class="o">.</span><span class="n">staticTexts</span><span class="p">[</span><span class="s">"고민 상담"</span><span class="p">]</span><span class="o">.</span><span class="nf">waitForExistenceThenTap</span><span class="p">())</span>
-        <span class="kt">XCTAssert</span><span class="p">(</span><span class="n">app</span><span class="o">.</span><span class="n">staticTexts</span><span class="p">[</span><span class="s">"고민 상담"</span><span class="p">]</span><span class="o">.</span><span class="nf">waitForExist</span><span class="p">())</span>
-        <span class="kt">XCTAssert</span><span class="p">(</span><span class="n">app</span><span class="o">.</span><span class="n">tables</span><span class="o">.</span><span class="n">cells</span><span class="o">.</span><span class="nf">element</span><span class="p">(</span><span class="nv">boundBy</span><span class="p">:</span> <span class="mi">0</span><span class="p">)</span><span class="o">.</span><span class="n">staticTexts</span><span class="p">[</span><span class="s">"댓글"</span><span class="p">]</span><span class="o">.</span><span class="nf">waitForExistence</span><span class="p">(</span><span class="nv">timeout</span><span class="p">:</span> <span class="mi">30</span><span class="p">))</span>
-</section>
-                      <section class="test-detail">/Users/admin/Desktop/DrDiary-iOS-v2/drdiary-iosUITests/UITestsSuite_006_Community.swift:118</section>
-                    
-                    
-                  </td>
-                </tr>
-              
-            
-              
-              <tr class="test failing "  onclick="toggleDetails('test_016_BoardTypeCounseling');">
-                <td>
-                  
-                </td>
-                <td><h3 class="title">test_016_BoardTypeCounseling</h3></td>
-              </tr>
-              
-                <tr class="details failing test_016_BoardTypeCounseling">
-                  <td></td>
-                  <td>
-                    
-                      <section class="test-detail reason">XCTAssertTrue failed</section>
-                    
-                    
-                      <section class="test-detail snippet">        <span class="kt">XCTAssert</span><span class="p">(</span><span class="n">app</span><span class="o">.</span><span class="n">staticTexts</span><span class="p">[</span><span class="s">"고민 상담"</span><span class="p">]</span><span class="o">.</span><span class="nf">waitForExist</span><span class="p">())</span>
-        <span class="kt">XCTAssert</span><span class="p">(</span><span class="n">app</span><span class="o">.</span><span class="n">tables</span><span class="o">.</span><span class="n">cells</span><span class="o">.</span><span class="nf">element</span><span class="p">(</span><span class="nv">boundBy</span><span class="p">:</span> <span class="mi">0</span><span class="p">)</span><span class="o">.</span><span class="n">staticTexts</span><span class="p">[</span><span class="s">"댓글"</span><span class="p">]</span><span class="o">.</span><span class="nf">waitForExistence</span><span class="p">(</span><span class="nv">timeout</span><span class="p">:</span> <span class="mi">30</span><span class="p">))</span>
-    <span class="p">}</span>
-</section>
-                      <section class="test-detail">/Users/admin/Desktop/DrDiary-iOS-v2/drdiary-iosUITests/UITestsSuite_006_Community.swift:119</section>
-                    
-                    
-                  </td>
-                </tr>
-              
-            
-              
-              <tr class="test failing odd"  onclick="toggleDetails('test_019_MoveToSearch');">
-                <td>
+                    <h3 class="time">11.893s</h3>
                   
                 </td>
                 <td><h3 class="title">test_019_MoveToSearch</h3></td>
               </tr>
               
-                <tr class="details failing test_019_MoveToSearch">
-                  <td></td>
-                  <td>
-                    
-                      <section class="test-detail reason">XCTAssertTrue failed</section>
-                    
-                    
-                      <section class="test-detail snippet">        <span class="n">app</span><span class="o">.</span><span class="n">buttons</span><span class="p">[</span><span class="s">"community main search"</span><span class="p">]</span><span class="o">.</span><span class="nf">waitForExistenceThenTap</span><span class="p">()</span>
-        <span class="kt">XCTAssert</span><span class="p">(</span><span class="n">app</span><span class="o">.</span><span class="n">navigationBars</span><span class="o">.</span><span class="n">staticTexts</span><span class="p">[</span><span class="s">"검색"</span><span class="p">]</span><span class="o">.</span><span class="nf">waitForExist</span><span class="p">())</span>
-        <span class="kt">XCTAssert</span><span class="p">(</span><span class="n">app</span><span class="o">.</span><span class="n">navigationBars</span><span class="o">.</span><span class="n">buttons</span><span class="p">[</span><span class="s">"뒤로"</span><span class="p">]</span><span class="o">.</span><span class="nf">waitForExist</span><span class="p">())</span>
-</section>
-                      <section class="test-detail">/Users/admin/Desktop/DrDiary-iOS-v2/drdiary-iosUITests/UITestsSuite_006_Community.swift:144</section>
-                    
-                    
-                  </td>
-                </tr>
-              
             
               
-              <tr class="test failing "  onclick="toggleDetails('test_019_MoveToSearch');">
+              <tr class="test passing "  onclick="toggleDetails('test_020_SearchTotalPageLoading');">
                 <td>
                   
-                </td>
-                <td><h3 class="title">test_019_MoveToSearch</h3></td>
-              </tr>
-              
-                <tr class="details failing test_019_MoveToSearch">
-                  <td></td>
-                  <td>
-                    
-                      <section class="test-detail reason">XCTAssertTrue failed</section>
-                    
-                    
-                      <section class="test-detail snippet">        <span class="kt">XCTAssert</span><span class="p">(</span><span class="n">app</span><span class="o">.</span><span class="n">navigationBars</span><span class="o">.</span><span class="n">staticTexts</span><span class="p">[</span><span class="s">"검색"</span><span class="p">]</span><span class="o">.</span><span class="nf">waitForExist</span><span class="p">())</span>
-        <span class="kt">XCTAssert</span><span class="p">(</span><span class="n">app</span><span class="o">.</span><span class="n">navigationBars</span><span class="o">.</span><span class="n">buttons</span><span class="p">[</span><span class="s">"뒤로"</span><span class="p">]</span><span class="o">.</span><span class="nf">waitForExist</span><span class="p">())</span>
-        <span class="kt">XCTAssert</span><span class="p">(</span><span class="n">app</span><span class="o">.</span><span class="n">searchFields</span><span class="p">[</span><span class="s">"검색어를 입력해주세요 :)"</span><span class="p">]</span><span class="o">.</span><span class="nf">waitForExist</span><span class="p">())</span>
-</section>
-                      <section class="test-detail">/Users/admin/Desktop/DrDiary-iOS-v2/drdiary-iosUITests/UITestsSuite_006_Community.swift:145</section>
-                    
-                    
-                  </td>
-                </tr>
-              
-            
-              
-              <tr class="test failing odd"  onclick="toggleDetails('test_019_MoveToSearch');">
-                <td>
-                  
-                </td>
-                <td><h3 class="title">test_019_MoveToSearch</h3></td>
-              </tr>
-              
-                <tr class="details failing test_019_MoveToSearch">
-                  <td></td>
-                  <td>
-                    
-                      <section class="test-detail reason">XCTAssertTrue failed</section>
-                    
-                    
-                      <section class="test-detail snippet">        <span class="kt">XCTAssert</span><span class="p">(</span><span class="n">app</span><span class="o">.</span><span class="n">navigationBars</span><span class="o">.</span><span class="n">buttons</span><span class="p">[</span><span class="s">"뒤로"</span><span class="p">]</span><span class="o">.</span><span class="nf">waitForExist</span><span class="p">())</span>
-        <span class="kt">XCTAssert</span><span class="p">(</span><span class="n">app</span><span class="o">.</span><span class="n">searchFields</span><span class="p">[</span><span class="s">"검색어를 입력해주세요 :)"</span><span class="p">]</span><span class="o">.</span><span class="nf">waitForExist</span><span class="p">())</span>
-        <span class="kt">XCTAssert</span><span class="p">(</span><span class="n">app</span><span class="o">.</span><span class="n">staticTexts</span><span class="p">[</span><span class="s">"통합"</span><span class="p">]</span><span class="o">.</span><span class="nf">waitForExist</span><span class="p">())</span>
-</section>
-                      <section class="test-detail">/Users/admin/Desktop/DrDiary-iOS-v2/drdiary-iosUITests/UITestsSuite_006_Community.swift:146</section>
-                    
-                    
-                  </td>
-                </tr>
-              
-            
-              
-              <tr class="test failing "  onclick="toggleDetails('test_019_MoveToSearch');">
-                <td>
-                  
-                </td>
-                <td><h3 class="title">test_019_MoveToSearch</h3></td>
-              </tr>
-              
-                <tr class="details failing test_019_MoveToSearch">
-                  <td></td>
-                  <td>
-                    
-                      <section class="test-detail reason">XCTAssertTrue failed</section>
-                    
-                    
-                      <section class="test-detail snippet">        <span class="kt">XCTAssert</span><span class="p">(</span><span class="n">app</span><span class="o">.</span><span class="n">searchFields</span><span class="p">[</span><span class="s">"검색어를 입력해주세요 :)"</span><span class="p">]</span><span class="o">.</span><span class="nf">waitForExist</span><span class="p">())</span>
-        <span class="kt">XCTAssert</span><span class="p">(</span><span class="n">app</span><span class="o">.</span><span class="n">staticTexts</span><span class="p">[</span><span class="s">"통합"</span><span class="p">]</span><span class="o">.</span><span class="nf">waitForExist</span><span class="p">())</span>
-        <span class="kt">XCTAssert</span><span class="p">(</span><span class="n">app</span><span class="o">.</span><span class="n">staticTexts</span><span class="p">[</span><span class="s">"게시글"</span><span class="p">]</span><span class="o">.</span><span class="nf">waitForExist</span><span class="p">())</span>
-</section>
-                      <section class="test-detail">/Users/admin/Desktop/DrDiary-iOS-v2/drdiary-iosUITests/UITestsSuite_006_Community.swift:147</section>
-                    
-                    
-                  </td>
-                </tr>
-              
-            
-              
-              <tr class="test failing odd"  onclick="toggleDetails('test_019_MoveToSearch');">
-                <td>
-                  
-                </td>
-                <td><h3 class="title">test_019_MoveToSearch</h3></td>
-              </tr>
-              
-                <tr class="details failing test_019_MoveToSearch">
-                  <td></td>
-                  <td>
-                    
-                      <section class="test-detail reason">XCTAssertTrue failed</section>
-                    
-                    
-                      <section class="test-detail snippet">        <span class="kt">XCTAssert</span><span class="p">(</span><span class="n">app</span><span class="o">.</span><span class="n">staticTexts</span><span class="p">[</span><span class="s">"통합"</span><span class="p">]</span><span class="o">.</span><span class="nf">waitForExist</span><span class="p">())</span>
-        <span class="kt">XCTAssert</span><span class="p">(</span><span class="n">app</span><span class="o">.</span><span class="n">staticTexts</span><span class="p">[</span><span class="s">"게시글"</span><span class="p">]</span><span class="o">.</span><span class="nf">waitForExist</span><span class="p">())</span>
-        <span class="kt">XCTAssert</span><span class="p">(</span><span class="n">app</span><span class="o">.</span><span class="n">staticTexts</span><span class="p">[</span><span class="s">"이벤트"</span><span class="p">]</span><span class="o">.</span><span class="nf">waitForExist</span><span class="p">())</span>
-</section>
-                      <section class="test-detail">/Users/admin/Desktop/DrDiary-iOS-v2/drdiary-iosUITests/UITestsSuite_006_Community.swift:148</section>
-                    
-                    
-                  </td>
-                </tr>
-              
-            
-              
-              <tr class="test failing "  onclick="toggleDetails('test_019_MoveToSearch');">
-                <td>
-                  
-                </td>
-                <td><h3 class="title">test_019_MoveToSearch</h3></td>
-              </tr>
-              
-                <tr class="details failing test_019_MoveToSearch">
-                  <td></td>
-                  <td>
-                    
-                      <section class="test-detail reason">XCTAssertTrue failed</section>
-                    
-                    
-                      <section class="test-detail snippet">        <span class="kt">XCTAssert</span><span class="p">(</span><span class="n">app</span><span class="o">.</span><span class="n">staticTexts</span><span class="p">[</span><span class="s">"게시글"</span><span class="p">]</span><span class="o">.</span><span class="nf">waitForExist</span><span class="p">())</span>
-        <span class="kt">XCTAssert</span><span class="p">(</span><span class="n">app</span><span class="o">.</span><span class="n">staticTexts</span><span class="p">[</span><span class="s">"이벤트"</span><span class="p">]</span><span class="o">.</span><span class="nf">waitForExist</span><span class="p">())</span>
-        <span class="kt">XCTAssert</span><span class="p">(</span><span class="n">app</span><span class="o">.</span><span class="n">staticTexts</span><span class="p">[</span><span class="s">"유저"</span><span class="p">]</span><span class="o">.</span><span class="nf">waitForExist</span><span class="p">())</span>
-</section>
-                      <section class="test-detail">/Users/admin/Desktop/DrDiary-iOS-v2/drdiary-iosUITests/UITestsSuite_006_Community.swift:149</section>
-                    
-                    
-                  </td>
-                </tr>
-              
-            
-              
-              <tr class="test failing odd"  onclick="toggleDetails('test_019_MoveToSearch');">
-                <td>
-                  
-                </td>
-                <td><h3 class="title">test_019_MoveToSearch</h3></td>
-              </tr>
-              
-                <tr class="details failing test_019_MoveToSearch">
-                  <td></td>
-                  <td>
-                    
-                      <section class="test-detail reason">XCTAssertTrue failed</section>
-                    
-                    
-                      <section class="test-detail snippet">        <span class="kt">XCTAssert</span><span class="p">(</span><span class="n">app</span><span class="o">.</span><span class="n">staticTexts</span><span class="p">[</span><span class="s">"이벤트"</span><span class="p">]</span><span class="o">.</span><span class="nf">waitForExist</span><span class="p">())</span>
-        <span class="kt">XCTAssert</span><span class="p">(</span><span class="n">app</span><span class="o">.</span><span class="n">staticTexts</span><span class="p">[</span><span class="s">"유저"</span><span class="p">]</span><span class="o">.</span><span class="nf">waitForExist</span><span class="p">())</span>
-    <span class="p">}</span>
-</section>
-                      <section class="test-detail">/Users/admin/Desktop/DrDiary-iOS-v2/drdiary-iosUITests/UITestsSuite_006_Community.swift:150</section>
-                    
-                    
-                  </td>
-                </tr>
-              
-            
-              
-              <tr class="test failing "  onclick="toggleDetails('test_020_SearchTotalPageLoading');">
-                <td>
+                    <h3 class="time">1.112s</h3>
                   
                 </td>
                 <td><h3 class="title">test_020_SearchTotalPageLoading</h3></td>
               </tr>
               
-                <tr class="details failing test_020_SearchTotalPageLoading">
-                  <td></td>
-                  <td>
-                    
-                      <section class="test-detail reason">XCTAssertTrue failed</section>
-                    
-                    
-                      <section class="test-detail snippet">    <span class="kd">func</span> <span class="nf">test_020_SearchTotalPageLoading</span><span class="p">()</span> <span class="k">throws</span> <span class="p">{</span>
-        <span class="kt">XCTAssert</span><span class="p">(</span><span class="n">app</span><span class="o">.</span><span class="n">tables</span><span class="o">.</span><span class="n">cells</span><span class="o">.</span><span class="nf">element</span><span class="p">(</span><span class="nv">boundBy</span><span class="p">:</span> <span class="mi">0</span><span class="p">)</span><span class="o">.</span><span class="n">staticTexts</span><span class="p">[</span><span class="s">"인기 검색어"</span><span class="p">]</span><span class="o">.</span><span class="nf">waitForExist</span><span class="p">(</span><span class="nv">timeout</span><span class="p">:</span> <span class="mi">30</span><span class="p">))</span>
-    <span class="p">}</span>
-</section>
-                      <section class="test-detail">/Users/admin/Desktop/DrDiary-iOS-v2/drdiary-iosUITests/UITestsSuite_006_Community.swift:154</section>
-                    
-                    
-                  </td>
-                </tr>
-              
             
               
-              <tr class="test failing odd"  onclick="toggleDetails('test_021_SearchFeedsPageLoading');">
+              <tr class="test passing odd"  onclick="toggleDetails('test_021_SearchFeedsPageLoading');">
                 <td>
+                  
+                    <h3 class="time">24.397s</h3>
                   
                 </td>
                 <td><h3 class="title">test_021_SearchFeedsPageLoading</h3></td>
               </tr>
               
-                <tr class="details failing test_021_SearchFeedsPageLoading">
-                  <td></td>
-                  <td>
-                    
-                      <section class="test-detail reason">Failed to get matching snapshot: Application com.sharecaring.drdiary-ios.dev is not running</section>
-                    
-                    
-                      <section class="test-detail snippet">    <span class="kd">func</span> <span class="nf">test_021_SearchFeedsPageLoading</span><span class="p">()</span> <span class="k">throws</span> <span class="p">{</span>
-        <span class="n">app</span><span class="o">.</span><span class="n">staticTexts</span><span class="p">[</span><span class="s">"게시글"</span><span class="p">]</span><span class="o">.</span><span class="nf">tap</span><span class="p">()</span>
-        <span class="kt">XCTAssert</span><span class="p">(</span><span class="n">app</span><span class="o">.</span><span class="n">tables</span><span class="o">.</span><span class="n">cells</span><span class="o">.</span><span class="nf">element</span><span class="p">(</span><span class="nv">boundBy</span><span class="p">:</span> <span class="mi">0</span><span class="p">)</span><span class="o">.</span><span class="n">staticTexts</span><span class="p">[</span><span class="s">"베스트 게시글"</span><span class="p">]</span><span class="o">.</span><span class="nf">waitForExist</span><span class="p">(</span><span class="nv">timeout</span><span class="p">:</span> <span class="mi">30</span><span class="p">))</span>
-</section>
-                      <section class="test-detail">/Users/admin/Desktop/DrDiary-iOS-v2/drdiary-iosUITests/UITestsSuite_006_Community.swift:158</section>
-                    
-                    
-                  </td>
-                </tr>
-              
             
               
-              <tr class="test failing "  onclick="toggleDetails('test_022_SearchEventsPageLoading');">
+              <tr class="test passing "  onclick="toggleDetails('test_022_SearchEventsPageLoading');">
                 <td>
+                  
+                    <h3 class="time">1.699s</h3>
                   
                 </td>
                 <td><h3 class="title">test_022_SearchEventsPageLoading</h3></td>
               </tr>
               
-                <tr class="details failing test_022_SearchEventsPageLoading">
-                  <td></td>
-                  <td>
-                    
-                      <section class="test-detail reason">Failed to get matching snapshot: Application com.sharecaring.drdiary-ios.dev is not running</section>
-                    
-                    
-                      <section class="test-detail snippet">    <span class="kd">func</span> <span class="nf">test_022_SearchEventsPageLoading</span><span class="p">()</span> <span class="k">throws</span> <span class="p">{</span>
-        <span class="n">app</span><span class="o">.</span><span class="n">staticTexts</span><span class="p">[</span><span class="s">"이벤트"</span><span class="p">]</span><span class="o">.</span><span class="nf">tap</span><span class="p">()</span>
-        <span class="kt">XCTAssert</span><span class="p">(</span><span class="n">app</span><span class="o">.</span><span class="n">tables</span><span class="o">.</span><span class="n">cells</span><span class="o">.</span><span class="nf">element</span><span class="p">(</span><span class="nv">boundBy</span><span class="p">:</span> <span class="mi">0</span><span class="p">)</span><span class="o">.</span><span class="n">staticTexts</span><span class="p">[</span><span class="s">"최근 이벤트"</span><span class="p">]</span><span class="o">.</span><span class="nf">waitForExist</span><span class="p">(</span><span class="nv">timeout</span><span class="p">:</span> <span class="mi">30</span><span class="p">))</span>
-</section>
-                      <section class="test-detail">/Users/admin/Desktop/DrDiary-iOS-v2/drdiary-iosUITests/UITestsSuite_006_Community.swift:163</section>
-                    
-                    
-                  </td>
-                </tr>
-              
             
               
-              <tr class="test failing odd"  onclick="toggleDetails('test_023_SearchUsersPageLoading');">
+              <tr class="test passing odd"  onclick="toggleDetails('test_023_SearchUsersPageLoading');">
                 <td>
+                  
+                    <h3 class="time">1.601s</h3>
                   
                 </td>
                 <td><h3 class="title">test_023_SearchUsersPageLoading</h3></td>
               </tr>
               
-                <tr class="details failing test_023_SearchUsersPageLoading">
-                  <td></td>
-                  <td>
-                    
-                      <section class="test-detail reason">Failed to get matching snapshot: Application com.sharecaring.drdiary-ios.dev is not running</section>
-                    
-                    
-                      <section class="test-detail snippet">    <span class="kd">func</span> <span class="nf">test_023_SearchUsersPageLoading</span><span class="p">()</span> <span class="k">throws</span> <span class="p">{</span>
-        <span class="n">app</span><span class="o">.</span><span class="n">staticTexts</span><span class="p">[</span><span class="s">"유저"</span><span class="p">]</span><span class="o">.</span><span class="nf">tap</span><span class="p">()</span>
-        <span class="kt">XCTAssert</span><span class="p">(</span><span class="n">app</span><span class="o">.</span><span class="n">tables</span><span class="o">.</span><span class="n">cells</span><span class="o">.</span><span class="nf">element</span><span class="p">(</span><span class="nv">boundBy</span><span class="p">:</span> <span class="mi">0</span><span class="p">)</span><span class="o">.</span><span class="n">staticTexts</span><span class="p">[</span><span class="s">"우수 활동 유저"</span><span class="p">]</span><span class="o">.</span><span class="nf">waitForExist</span><span class="p">(</span><span class="nv">timeout</span><span class="p">:</span> <span class="mi">30</span><span class="p">))</span>
-</section>
-                      <section class="test-detail">/Users/admin/Desktop/DrDiary-iOS-v2/drdiary-iosUITests/UITestsSuite_006_Community.swift:168</section>
-                    
-                    
-                  </td>
-                </tr>
-              
             
               
-              <tr class="test failing "  onclick="toggleDetails('test_024_SearchTextField');">
+              <tr class="test passing "  onclick="toggleDetails('test_024_SearchTextField');">
                 <td>
+                  
+                    <h3 class="time">3.943s</h3>
                   
                 </td>
                 <td><h3 class="title">test_024_SearchTextField</h3></td>
               </tr>
               
-                <tr class="details failing test_024_SearchTextField">
-                  <td></td>
-                  <td>
-                    
-                      <section class="test-detail reason">Failed to get matching snapshot: Application com.sharecaring.drdiary-ios.dev is not running</section>
-                    
-                    
-                      <section class="test-detail snippet">    <span class="kd">func</span> <span class="nf">test_024_SearchTextField</span><span class="p">()</span> <span class="k">throws</span> <span class="p">{</span>
-        <span class="n">app</span><span class="o">.</span><span class="n">searchFields</span><span class="p">[</span><span class="s">"검색어를 입력해주세요 :)"</span><span class="p">]</span><span class="o">.</span><span class="nf">tap</span><span class="p">()</span>
-        <span class="kt">XCTAssert</span><span class="p">(</span><span class="n">app</span><span class="o">.</span><span class="n">buttons</span><span class="p">[</span><span class="s">"취소"</span><span class="p">]</span><span class="o">.</span><span class="nf">waitForExist</span><span class="p">())</span>
-</section>
-                      <section class="test-detail">/Users/admin/Desktop/DrDiary-iOS-v2/drdiary-iosUITests/UITestsSuite_006_Community.swift:173</section>
-                    
-                    
-                  </td>
-                </tr>
-              
             
               
-              <tr class="test failing odd"  onclick="toggleDetails('test_025_HideSearchCancelButton');">
+              <tr class="test passing odd"  onclick="toggleDetails('test_025_HideSearchCancelButton');">
                 <td>
+                  
+                    <h3 class="time">0.494s</h3>
                   
                 </td>
                 <td><h3 class="title">test_025_HideSearchCancelButton</h3></td>
               </tr>
               
-                <tr class="details failing test_025_HideSearchCancelButton">
-                  <td></td>
-                  <td>
-                    
-                      <section class="test-detail reason">Failed to get matching snapshot: Application com.sharecaring.drdiary-ios.dev is not running</section>
-                    
-                    
-                      <section class="test-detail snippet">    <span class="kd">func</span> <span class="nf">test_025_HideSearchCancelButton</span><span class="p">()</span> <span class="k">throws</span> <span class="p">{</span>
-        <span class="n">app</span><span class="o">.</span><span class="n">buttons</span><span class="p">[</span><span class="s">"취소"</span><span class="p">]</span><span class="o">.</span><span class="nf">tap</span><span class="p">()</span>
-        <span class="kt">XCTAssertFalse</span><span class="p">(</span><span class="n">app</span><span class="o">.</span><span class="n">buttons</span><span class="p">[</span><span class="s">"취소"</span><span class="p">]</span><span class="o">.</span><span class="n">exists</span><span class="p">)</span>
-</section>
-                      <section class="test-detail">/Users/admin/Desktop/DrDiary-iOS-v2/drdiary-iosUITests/UITestsSuite_006_Community.swift:180</section>
-                    
-                    
-                  </td>
-                </tr>
-              
             
               
-              <tr class="test failing "  onclick="toggleDetails('test_026_SearchKeyword');">
+              <tr class="test passing "  onclick="toggleDetails('test_026_SearchKeyword');">
                 <td>
+                  
+                    <h3 class="time">5.872s</h3>
                   
                 </td>
                 <td><h3 class="title">test_026_SearchKeyword</h3></td>
               </tr>
               
-                <tr class="details failing test_026_SearchKeyword">
-                  <td></td>
-                  <td>
-                    
-                      <section class="test-detail reason">Failed to get matching snapshot: Application com.sharecaring.drdiary-ios.dev is not running</section>
-                    
-                    
-                      <section class="test-detail snippet">    <span class="kd">func</span> <span class="nf">test_026_SearchKeyword</span><span class="p">()</span> <span class="k">throws</span> <span class="p">{</span>
-        <span class="n">app</span><span class="o">.</span><span class="n">staticTexts</span><span class="p">[</span><span class="s">"통합"</span><span class="p">]</span><span class="o">.</span><span class="nf">tap</span><span class="p">()</span>
-        <span class="kt">XCTAssert</span><span class="p">(</span><span class="n">app</span><span class="o">.</span><span class="n">tables</span><span class="o">.</span><span class="n">cells</span><span class="o">.</span><span class="nf">element</span><span class="p">(</span><span class="nv">boundBy</span><span class="p">:</span> <span class="mi">0</span><span class="p">)</span><span class="o">.</span><span class="n">staticTexts</span><span class="p">[</span><span class="s">"인기 검색어"</span><span class="p">]</span><span class="o">.</span><span class="nf">waitForExist</span><span class="p">())</span>
-</section>
-                      <section class="test-detail">/Users/admin/Desktop/DrDiary-iOS-v2/drdiary-iosUITests/UITestsSuite_006_Community.swift:185</section>
-                    
-                    
-                  </td>
-                </tr>
-              
             
               
-              <tr class="test failing odd"  onclick="toggleDetails('test_027_MoveToWriterProfile');">
+              <tr class="test passing odd"  onclick="toggleDetails('test_027_MoveToWriterProfile');">
                 <td>
+                  
+                    <h3 class="time">14.107s</h3>
                   
                 </td>
                 <td><h3 class="title">test_027_MoveToWriterProfile</h3></td>
               </tr>
-              
-                <tr class="details failing test_027_MoveToWriterProfile">
-                  <td></td>
-                  <td>
-                    
-                      <section class="test-detail reason">failed - Fail test_027_MoveToWriterProfile</section>
-                    
-                    
-                      <section class="test-detail snippet">        <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
-            <span class="kt">XCTFail</span><span class="p">(</span><span class="s">"Fail test_027_MoveToWriterProfile"</span><span class="p">)</span>
-        <span class="p">}</span>
-</section>
-                      <section class="test-detail">/Users/admin/Desktop/DrDiary-iOS-v2/drdiary-iosUITests/UITestsSuite_006_Community.swift:201</section>
-                    
-                    
-                  </td>
-                </tr>
-              
-            
-              
-              <tr class="test failing "  onclick="toggleDetails('test_027_MoveToWriterProfile');">
-                <td>
-                  
-                </td>
-                <td><h3 class="title">test_027_MoveToWriterProfile</h3></td>
-              </tr>
-              
-                <tr class="details failing test_027_MoveToWriterProfile">
-                  <td></td>
-                  <td>
-                    
-                      <section class="test-detail reason">XCTAssertTrue failed</section>
-                    
-                    
-                      <section class="test-detail snippet">        <span class="p">}</span>
-        <span class="kt">XCTAssert</span><span class="p">(</span><span class="n">app</span><span class="o">.</span><span class="n">navigationBars</span><span class="o">.</span><span class="n">buttons</span><span class="p">[</span><span class="s">"뒤로"</span><span class="p">]</span><span class="o">.</span><span class="nf">waitForExist</span><span class="p">())</span>
-        <span class="n">app</span><span class="o">.</span><span class="n">navigationBars</span><span class="o">.</span><span class="n">buttons</span><span class="p">[</span><span class="s">"뒤로"</span><span class="p">]</span><span class="o">.</span><span class="nf">waitForExistenceThenTap</span><span class="p">()</span>
-</section>
-                      <section class="test-detail">/Users/admin/Desktop/DrDiary-iOS-v2/drdiary-iosUITests/UITestsSuite_006_Community.swift:203</section>
-                    
-                    
-                  </td>
-                </tr>
               
             
             </table>
@@ -2673,7 +1656,7 @@
         </section>
       
         
-        <section class="test-suite failing" id="drdiary_iosUITests.UITestsSuite_007_CommunityFeed">
+        <section class="test-suite passing" id="drdiary_iosUITests.UITestsSuite_007_CommunityFeed">
           <section class="heading" onclick="toggleTests(this);">
             <h3 class="title">drdiary_iosUITests.UITestsSuite_007_CommunityFeed</h3>
           </section>
@@ -2684,7 +1667,7 @@
               <tr class="test passing "  onclick="toggleDetails('test_003_MoveToCommunity');">
                 <td>
                   
-                    <h3 class="time">19.845s</h3>
+                    <h3 class="time">19.715s</h3>
                   
                 </td>
                 <td><h3 class="title">test_003_MoveToCommunity</h3></td>
@@ -2692,88 +1675,21 @@
               
             
               
-              <tr class="test failing odd"  onclick="toggleDetails('test_004_MoveToFeedDetail');">
+              <tr class="test passing odd"  onclick="toggleDetails('test_004_MoveToFeedDetail');">
                 <td>
+                  
+                    <h3 class="time">6.548s</h3>
                   
                 </td>
                 <td><h3 class="title">test_004_MoveToFeedDetail</h3></td>
               </tr>
-              
-                <tr class="details failing test_004_MoveToFeedDetail">
-                  <td></td>
-                  <td>
-                    
-                      <section class="test-detail reason">XCTAssertTrue failed</section>
-                    
-                    
-                      <section class="test-detail snippet">        <span class="n">app</span><span class="o">.</span><span class="n">tables</span><span class="o">.</span><span class="n">cells</span><span class="o">.</span><span class="nf">element</span><span class="p">(</span><span class="nv">boundBy</span><span class="p">:</span> <span class="mi">0</span><span class="p">)</span><span class="o">.</span><span class="n">staticTexts</span><span class="p">[</span><span class="s">"CommunityFeedListTextView.contentLabel"</span><span class="p">]</span><span class="o">.</span><span class="nf">waitForExistenceThenTap</span><span class="p">()</span>
-        <span class="kt">XCTAssert</span><span class="p">(</span><span class="n">app</span><span class="o">.</span><span class="n">navigationBars</span><span class="o">.</span><span class="n">staticTexts</span><span class="p">[</span><span class="s">"게시글"</span><span class="p">]</span><span class="o">.</span><span class="nf">waitForExist</span><span class="p">())</span>
-        <span class="kt">XCTAssert</span><span class="p">(</span><span class="n">app</span><span class="o">.</span><span class="n">navigationBars</span><span class="o">.</span><span class="n">buttons</span><span class="p">[</span><span class="s">"iconTagEtc"</span><span class="p">]</span><span class="o">.</span><span class="nf">waitForExist</span><span class="p">())</span>
-</section>
-                      <section class="test-detail">/Users/admin/Desktop/DrDiary-iOS-v2/drdiary-iosUITests/UITestsSuite_007_CommunityFeed.swift:33</section>
-                    
-                    
-                  </td>
-                </tr>
-              
-            
-              
-              <tr class="test failing "  onclick="toggleDetails('test_004_MoveToFeedDetail');">
-                <td>
-                  
-                </td>
-                <td><h3 class="title">test_004_MoveToFeedDetail</h3></td>
-              </tr>
-              
-                <tr class="details failing test_004_MoveToFeedDetail">
-                  <td></td>
-                  <td>
-                    
-                      <section class="test-detail reason">XCTAssertTrue failed</section>
-                    
-                    
-                      <section class="test-detail snippet">        <span class="kt">XCTAssert</span><span class="p">(</span><span class="n">app</span><span class="o">.</span><span class="n">navigationBars</span><span class="o">.</span><span class="n">staticTexts</span><span class="p">[</span><span class="s">"게시글"</span><span class="p">]</span><span class="o">.</span><span class="nf">waitForExist</span><span class="p">())</span>
-        <span class="kt">XCTAssert</span><span class="p">(</span><span class="n">app</span><span class="o">.</span><span class="n">navigationBars</span><span class="o">.</span><span class="n">buttons</span><span class="p">[</span><span class="s">"iconTagEtc"</span><span class="p">]</span><span class="o">.</span><span class="nf">waitForExist</span><span class="p">())</span>
-        <span class="kt">XCTAssert</span><span class="p">(</span><span class="n">app</span><span class="o">.</span><span class="n">navigationBars</span><span class="o">.</span><span class="n">buttons</span><span class="p">[</span><span class="s">"뒤로"</span><span class="p">]</span><span class="o">.</span><span class="nf">waitForExist</span><span class="p">())</span>
-</section>
-                      <section class="test-detail">/Users/admin/Desktop/DrDiary-iOS-v2/drdiary-iosUITests/UITestsSuite_007_CommunityFeed.swift:34</section>
-                    
-                    
-                  </td>
-                </tr>
-              
-            
-              
-              <tr class="test failing odd"  onclick="toggleDetails('test_004_MoveToFeedDetail');">
-                <td>
-                  
-                </td>
-                <td><h3 class="title">test_004_MoveToFeedDetail</h3></td>
-              </tr>
-              
-                <tr class="details failing test_004_MoveToFeedDetail">
-                  <td></td>
-                  <td>
-                    
-                      <section class="test-detail reason">XCTAssertTrue failed</section>
-                    
-                    
-                      <section class="test-detail snippet">        <span class="kt">XCTAssert</span><span class="p">(</span><span class="n">app</span><span class="o">.</span><span class="n">navigationBars</span><span class="o">.</span><span class="n">buttons</span><span class="p">[</span><span class="s">"iconTagEtc"</span><span class="p">]</span><span class="o">.</span><span class="nf">waitForExist</span><span class="p">())</span>
-        <span class="kt">XCTAssert</span><span class="p">(</span><span class="n">app</span><span class="o">.</span><span class="n">navigationBars</span><span class="o">.</span><span class="n">buttons</span><span class="p">[</span><span class="s">"뒤로"</span><span class="p">]</span><span class="o">.</span><span class="nf">waitForExist</span><span class="p">())</span>
-    <span class="p">}</span>
-</section>
-                      <section class="test-detail">/Users/admin/Desktop/DrDiary-iOS-v2/drdiary-iosUITests/UITestsSuite_007_CommunityFeed.swift:35</section>
-                    
-                    
-                  </td>
-                </tr>
               
             
               
               <tr class="test passing "  onclick="toggleDetails('test_005_MoreButtonInFeedDetail');">
                 <td>
                   
-                    <h3 class="time">31.231s</h3>
+                    <h3 class="time">4.538s</h3>
                   
                 </td>
                 <td><h3 class="title">test_005_MoreButtonInFeedDetail</h3></td>
@@ -2781,289 +1697,124 @@
               
             
               
-              <tr class="test failing odd"  onclick="toggleDetails('test_006_ShareFunction');">
+              <tr class="test passing odd"  onclick="toggleDetails('test_006_ShareFunction');">
                 <td>
+                  
+                    <h3 class="time">2.241s</h3>
                   
                 </td>
                 <td><h3 class="title">test_006_ShareFunction</h3></td>
               </tr>
               
-                <tr class="details failing test_006_ShareFunction">
-                  <td></td>
-                  <td>
-                    
-                      <section class="test-detail reason">Failed to get matching snapshot: Application com.sharecaring.drdiary-ios.dev is not running</section>
-                    
-                    
-                      <section class="test-detail snippet">    <span class="kd">func</span> <span class="nf">test_006_ShareFunction</span><span class="p">()</span> <span class="k">throws</span> <span class="p">{</span>
-        <span class="n">app</span><span class="o">.</span><span class="n">staticTexts</span><span class="p">[</span><span class="s">"공유하기"</span><span class="p">]</span><span class="o">.</span><span class="nf">tap</span><span class="p">()</span>
-        <span class="n">app</span><span class="o">.</span><span class="n">buttons</span><span class="p">[</span><span class="s">"닫기"</span><span class="p">]</span><span class="o">.</span><span class="nf">waitForExistenceThenTap</span><span class="p">()</span>
-</section>
-                      <section class="test-detail">/Users/admin/Desktop/DrDiary-iOS-v2/drdiary-iosUITests/UITestsSuite_007_CommunityFeed.swift:54</section>
-                    
-                    
-                  </td>
-                </tr>
-              
             
               
-              <tr class="test failing "  onclick="toggleDetails('test_007_ReportFunction');">
+              <tr class="test passing "  onclick="toggleDetails('test_007_ReportFunction');">
                 <td>
+                  
+                    <h3 class="time">8.740s</h3>
                   
                 </td>
                 <td><h3 class="title">test_007_ReportFunction</h3></td>
               </tr>
               
-                <tr class="details failing test_007_ReportFunction">
-                  <td></td>
-                  <td>
-                    
-                      <section class="test-detail reason">Failed to get matching snapshot: Application com.sharecaring.drdiary-ios.dev is not running</section>
-                    
-                    
-                      <section class="test-detail snippet">        <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
-            <span class="n">app</span><span class="o">.</span><span class="n">staticTexts</span><span class="p">[</span><span class="s">"공유하기"</span><span class="p">]</span><span class="o">.</span><span class="nf">tap</span><span class="p">()</span>
-            <span class="n">app</span><span class="o">.</span><span class="n">buttons</span><span class="p">[</span><span class="s">"닫기"</span><span class="p">]</span><span class="o">.</span><span class="nf">waitForExistenceThenTap</span><span class="p">()</span>
-</section>
-                      <section class="test-detail">/Users/admin/Desktop/DrDiary-iOS-v2/drdiary-iosUITests/UITestsSuite_007_CommunityFeed.swift:65</section>
-                    
-                    
-                  </td>
-                </tr>
-              
             
               
-              <tr class="test failing odd"  onclick="toggleDetails('test_008_ModificationFunction');">
+              <tr class="test passing odd"  onclick="toggleDetails('test_008_ModificationFunction');">
                 <td>
+                  
+                    <h3 class="time">7.944s</h3>
                   
                 </td>
                 <td><h3 class="title">test_008_ModificationFunction</h3></td>
               </tr>
               
-                <tr class="details failing test_008_ModificationFunction">
-                  <td></td>
-                  <td>
-                    
-                      <section class="test-detail reason">Failed to get matching snapshot: Application com.sharecaring.drdiary-ios.dev is not running</section>
-                    
-                    
-                      <section class="test-detail snippet">        <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
-            <span class="n">app</span><span class="o">.</span><span class="n">staticTexts</span><span class="p">[</span><span class="s">"공유하기"</span><span class="p">]</span><span class="o">.</span><span class="nf">tap</span><span class="p">()</span>
-            <span class="n">app</span><span class="o">.</span><span class="n">buttons</span><span class="p">[</span><span class="s">"닫기"</span><span class="p">]</span><span class="o">.</span><span class="nf">waitForExistenceThenTap</span><span class="p">()</span>
-</section>
-                      <section class="test-detail">/Users/admin/Desktop/DrDiary-iOS-v2/drdiary-iosUITests/UITestsSuite_007_CommunityFeed.swift:81</section>
-                    
-                    
-                  </td>
-                </tr>
-              
             
               
-              <tr class="test failing "  onclick="toggleDetails('test_009_DeleteFunction');">
+              <tr class="test passing "  onclick="toggleDetails('test_009_DeleteFunction');">
                 <td>
+                  
+                    <h3 class="time">7.653s</h3>
                   
                 </td>
                 <td><h3 class="title">test_009_DeleteFunction</h3></td>
               </tr>
               
-                <tr class="details failing test_009_DeleteFunction">
-                  <td></td>
-                  <td>
-                    
-                      <section class="test-detail reason">Failed to get matching snapshot: Application com.sharecaring.drdiary-ios.dev is not running</section>
-                    
-                    
-                      <section class="test-detail snippet">        <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
-            <span class="n">app</span><span class="o">.</span><span class="n">staticTexts</span><span class="p">[</span><span class="s">"공유하기"</span><span class="p">]</span><span class="o">.</span><span class="nf">tap</span><span class="p">()</span>
-            <span class="n">app</span><span class="o">.</span><span class="n">buttons</span><span class="p">[</span><span class="s">"닫기"</span><span class="p">]</span><span class="o">.</span><span class="nf">waitForExistenceThenTap</span><span class="p">()</span>
-</section>
-                      <section class="test-detail">/Users/admin/Desktop/DrDiary-iOS-v2/drdiary-iosUITests/UITestsSuite_007_CommunityFeed.swift:94</section>
-                    
-                    
-                  </td>
-                </tr>
-              
             
               
-              <tr class="test failing odd"  onclick="toggleDetails('test_010_Emoji');">
+              <tr class="test passing odd"  onclick="toggleDetails('test_010_Emoji');">
                 <td>
+                  
+                    <h3 class="time">7.402s</h3>
                   
                 </td>
                 <td><h3 class="title">test_010_Emoji</h3></td>
               </tr>
               
-                <tr class="details failing test_010_Emoji">
-                  <td></td>
-                  <td>
-                    
-                      <section class="test-detail reason">XCTAssertTrue failed</section>
-                    
-                    
-                      <section class="test-detail snippet">        <span class="n">app</span><span class="o">.</span><span class="n">staticTexts</span><span class="p">[</span><span class="s">"표정짓기"</span><span class="p">]</span><span class="o">.</span><span class="nf">waitForExistenceThenTap</span><span class="p">()</span>
-        <span class="kt">XCTAssert</span><span class="p">(</span><span class="n">app</span><span class="o">.</span><span class="n">images</span><span class="p">[</span><span class="s">"CommunityLikesEmojiSubview.imageView"</span><span class="p">]</span><span class="o">.</span><span class="nf">waitForExist</span><span class="p">())</span>
-        <span class="n">app</span><span class="o">.</span><span class="n">staticTexts</span><span class="p">[</span><span class="s">"CommunityFeedListTextView.contentLabel"</span><span class="p">]</span><span class="o">.</span><span class="nf">waitForExistenceThenTap</span><span class="p">()</span>
-</section>
-                      <section class="test-detail">/Users/admin/Desktop/DrDiary-iOS-v2/drdiary-iosUITests/UITestsSuite_007_CommunityFeed.swift:101</section>
-                    
-                    
-                  </td>
-                </tr>
-              
             
               
-              <tr class="test failing "  onclick="toggleDetails('test_011_Comment');">
+              <tr class="test passing "  onclick="toggleDetails('test_011_Comment');">
                 <td>
+                  
+                    <h3 class="time">3.416s</h3>
                   
                 </td>
                 <td><h3 class="title">test_011_Comment</h3></td>
               </tr>
               
-                <tr class="details failing test_011_Comment">
-                  <td></td>
-                  <td>
-                    
-                      <section class="test-detail reason">Failed to get matching snapshot: Application com.sharecaring.drdiary-ios.dev is not running</section>
-                    
-                    
-                      <section class="test-detail snippet">        <span class="k">let</span> <span class="nv">commentString</span> <span class="o">=</span> <span class="s">"댓글달기 </span><span class="se">\(</span><span class="n">dateText</span><span class="se">)\n</span><span class="s">by UITesting."</span>
-        <span class="n">app</span><span class="o">.</span><span class="n">textViews</span><span class="p">[</span><span class="s">"PlaceholderTextView.accessibilityIdentifier"</span><span class="p">]</span><span class="o">.</span><span class="n">firstMatch</span><span class="o">.</span><span class="nf">tap</span><span class="p">()</span>
-        <span class="n">app</span><span class="o">.</span><span class="n">textViews</span><span class="p">[</span><span class="s">"PlaceholderTextView.accessibilityIdentifier"</span><span class="p">]</span><span class="o">.</span><span class="n">firstMatch</span><span class="o">.</span><span class="nf">typeText</span><span class="p">(</span><span class="n">commentString</span><span class="p">)</span>
-</section>
-                      <section class="test-detail">/Users/admin/Desktop/DrDiary-iOS-v2/drdiary-iosUITests/UITestsSuite_007_CommunityFeed.swift:108</section>
-                    
-                    
-                  </td>
-                </tr>
-              
             
               
-              <tr class="test failing odd"  onclick="toggleDetails('test_012_CommentMention');">
+              <tr class="test passing odd"  onclick="toggleDetails('test_012_CommentMention');">
                 <td>
+                  
+                    <h3 class="time">7.594s</h3>
                   
                 </td>
                 <td><h3 class="title">test_012_CommentMention</h3></td>
               </tr>
               
-                <tr class="details failing test_012_CommentMention">
-                  <td></td>
-                  <td>
-                    
-                      <section class="test-detail reason">Failed to get matching snapshot: Application com.sharecaring.drdiary-ios.dev is not running</section>
-                    
-                    
-                      <section class="test-detail snippet">    <span class="kd">func</span> <span class="nf">test_012_CommentMention</span><span class="p">()</span> <span class="k">throws</span> <span class="p">{</span>
-        <span class="n">app</span><span class="o">.</span><span class="n">textViews</span><span class="p">[</span><span class="s">"PlaceholderTextView.accessibilityIdentifier"</span><span class="p">]</span><span class="o">.</span><span class="n">firstMatch</span><span class="o">.</span><span class="nf">tap</span><span class="p">()</span>
-        <span class="n">app</span><span class="o">.</span><span class="n">buttons</span><span class="p">[</span><span class="s">"community feed detail mention"</span><span class="p">]</span><span class="o">.</span><span class="nf">waitForExistenceThenTap</span><span class="p">()</span>
-</section>
-                      <section class="test-detail">/Users/admin/Desktop/DrDiary-iOS-v2/drdiary-iosUITests/UITestsSuite_007_CommunityFeed.swift:115</section>
-                    
-                    
-                  </td>
-                </tr>
-              
             
               
-              <tr class="test failing "  onclick="toggleDetails('test_013_CommentEmoji');">
+              <tr class="test passing "  onclick="toggleDetails('test_013_CommentEmoji');">
                 <td>
+                  
+                    <h3 class="time">7.887s</h3>
                   
                 </td>
                 <td><h3 class="title">test_013_CommentEmoji</h3></td>
               </tr>
               
-                <tr class="details failing test_013_CommentEmoji">
-                  <td></td>
-                  <td>
-                    
-                      <section class="test-detail reason">Failed to get matching snapshot: Application com.sharecaring.drdiary-ios.dev is not running</section>
-                    
-                    
-                      <section class="test-detail snippet">    <span class="kd">func</span> <span class="nf">test_013_CommentEmoji</span><span class="p">()</span> <span class="k">throws</span> <span class="p">{</span>
-        <span class="n">app</span><span class="o">.</span><span class="n">textViews</span><span class="p">[</span><span class="s">"PlaceholderTextView.accessibilityIdentifier"</span><span class="p">]</span><span class="o">.</span><span class="n">firstMatch</span><span class="o">.</span><span class="nf">tap</span><span class="p">()</span>
-        <span class="n">app</span><span class="o">.</span><span class="n">buttons</span><span class="p">[</span><span class="s">"community feed detail emoji"</span><span class="p">]</span><span class="o">.</span><span class="nf">waitForExistenceThenTap</span><span class="p">()</span>
-</section>
-                      <section class="test-detail">/Users/admin/Desktop/DrDiary-iOS-v2/drdiary-iosUITests/UITestsSuite_007_CommunityFeed.swift:129</section>
-                    
-                    
-                  </td>
-                </tr>
-              
             
               
-              <tr class="test failing odd"  onclick="toggleDetails('test_014_commentModification');">
+              <tr class="test passing odd"  onclick="toggleDetails('test_014_commentModification');">
                 <td>
+                  
+                    <h3 class="time">4.730s</h3>
                   
                 </td>
                 <td><h3 class="title">test_014_commentModification</h3></td>
               </tr>
               
-                <tr class="details failing test_014_commentModification">
-                  <td></td>
-                  <td>
-                    
-                      <section class="test-detail reason">Failed to get matching snapshot: Application com.sharecaring.drdiary-ios.dev is not running</section>
-                    
-                    
-                      <section class="test-detail snippet">        <span class="n">app</span><span class="o">.</span><span class="n">buttons</span><span class="p">[</span><span class="s">"수정"</span><span class="p">]</span><span class="o">.</span><span class="n">firstMatch</span><span class="o">.</span><span class="nf">waitForExistenceThenTap</span><span class="p">()</span>
-        <span class="k">let</span> <span class="nv">originText</span> <span class="o">=</span> <span class="n">app</span><span class="o">.</span><span class="n">textViews</span><span class="p">[</span><span class="s">"PlaceholderTextView.accessibilityIdentifier"</span><span class="p">]</span><span class="o">.</span><span class="n">firstMatch</span><span class="o">.</span><span class="n">value</span>
-        <span class="k">let</span> <span class="nv">commentString</span> <span class="o">=</span> <span class="s">"</span><span class="se">\n</span><span class="s">댓글 수정"</span>
-</section>
-                      <section class="test-detail">/Users/admin/Desktop/DrDiary-iOS-v2/drdiary-iosUITests/UITestsSuite_007_CommunityFeed.swift:145</section>
-                    
-                    
-                  </td>
-                </tr>
-              
             
               
-              <tr class="test failing "  onclick="toggleDetails('test_015_commentDelete');">
+              <tr class="test passing "  onclick="toggleDetails('test_015_commentDelete');">
                 <td>
+                  
+                    <h3 class="time">8.635s</h3>
                   
                 </td>
                 <td><h3 class="title">test_015_commentDelete</h3></td>
               </tr>
               
-                <tr class="details failing test_015_commentDelete">
-                  <td></td>
-                  <td>
-                    
-                      <section class="test-detail reason">Failed to get matching snapshot: Application com.sharecaring.drdiary-ios.dev is not running</section>
-                    
-                    
-                      <section class="test-detail snippet">        <span class="n">app</span><span class="o">.</span><span class="n">buttons</span><span class="p">[</span><span class="s">"수정"</span><span class="p">]</span><span class="o">.</span><span class="n">firstMatch</span><span class="o">.</span><span class="nf">waitForExistenceThenTap</span><span class="p">()</span>
-        <span class="k">let</span> <span class="nv">originText</span> <span class="o">=</span> <span class="n">app</span><span class="o">.</span><span class="n">textViews</span><span class="p">[</span><span class="s">"PlaceholderTextView.accessibilityIdentifier"</span><span class="p">]</span><span class="o">.</span><span class="n">firstMatch</span><span class="o">.</span><span class="n">value</span> <span class="k">as!</span> <span class="kt">String</span>
-        <span class="n">app</span><span class="o">.</span><span class="n">buttons</span><span class="p">[</span><span class="s">"삭제"</span><span class="p">]</span><span class="o">.</span><span class="n">firstMatch</span><span class="o">.</span><span class="nf">waitForExistenceThenTap</span><span class="p">()</span>
-</section>
-                      <section class="test-detail">/Users/admin/Desktop/DrDiary-iOS-v2/drdiary-iosUITests/UITestsSuite_007_CommunityFeed.swift:154</section>
-                    
-                    
-                  </td>
-                </tr>
-              
             
               
-              <tr class="test failing odd"  onclick="toggleDetails('test_016_likeComment');">
+              <tr class="test passing odd"  onclick="toggleDetails('test_016_likeComment');">
                 <td>
+                  
+                    <h3 class="time">10.786s</h3>
                   
                 </td>
                 <td><h3 class="title">test_016_likeComment</h3></td>
               </tr>
-              
-                <tr class="details failing test_016_likeComment">
-                  <td></td>
-                  <td>
-                    
-                      <section class="test-detail reason">XCTAssertTrue failed</section>
-                    
-                    
-                      <section class="test-detail snippet">        <span class="n">app</span><span class="o">.</span><span class="n">buttons</span><span class="p">[</span><span class="s">"좋아요"</span><span class="p">]</span><span class="o">.</span><span class="n">firstMatch</span><span class="o">.</span><span class="nf">waitForExistenceThenTap</span><span class="p">()</span>
-        <span class="kt">XCTAssert</span><span class="p">(</span><span class="n">app</span><span class="o">.</span><span class="n">buttons</span><span class="p">[</span><span class="s">"좋아요함"</span><span class="p">]</span><span class="o">.</span><span class="n">firstMatch</span><span class="o">.</span><span class="nf">waitForExist</span><span class="p">())</span>
-        <span class="n">app</span><span class="o">.</span><span class="n">buttons</span><span class="p">[</span><span class="s">"좋아요함"</span><span class="p">]</span><span class="o">.</span><span class="n">firstMatch</span><span class="o">.</span><span class="nf">waitForExistenceThenTap</span><span class="p">()</span>
-</section>
-                      <section class="test-detail">/Users/admin/Desktop/DrDiary-iOS-v2/drdiary-iosUITests/UITestsSuite_007_CommunityFeed.swift:161</section>
-                    
-                    
-                  </td>
-                </tr>
               
             
             </table>
@@ -3082,7 +1833,7 @@
               <tr class="test passing "  onclick="toggleDetails('test_003_MoveToContent');">
                 <td>
                   
-                    <h3 class="time">25.331s</h3>
+                    <h3 class="time">25.376s</h3>
                   
                 </td>
                 <td><h3 class="title">test_003_MoveToContent</h3></td>
@@ -3093,7 +1844,7 @@
               <tr class="test passing odd"  onclick="toggleDetails('test_004_ContentDetails_Appear');">
                 <td>
                   
-                    <h3 class="time">2.439s</h3>
+                    <h3 class="time">2.435s</h3>
                   
                 </td>
                 <td><h3 class="title">test_004_ContentDetails_Appear</h3></td>
@@ -3104,7 +1855,7 @@
               <tr class="test passing "  onclick="toggleDetails('test_005_ContentDetails_LikeTap');">
                 <td>
                   
-                    <h3 class="time">37.400s</h3>
+                    <h3 class="time">6.850s</h3>
                   
                 </td>
                 <td><h3 class="title">test_005_ContentDetails_LikeTap</h3></td>
@@ -3115,7 +1866,7 @@
               <tr class="test passing odd"  onclick="toggleDetails('test_006_ContentDetails_RecommendedContent');">
                 <td>
                   
-                    <h3 class="time">3.894s</h3>
+                    <h3 class="time">3.991s</h3>
                   
                 </td>
                 <td><h3 class="title">test_006_ContentDetails_RecommendedContent</h3></td>
@@ -3126,7 +1877,7 @@
               <tr class="test passing "  onclick="toggleDetails('test_007_VideoTips');">
                 <td>
                   
-                    <h3 class="time">2.613s</h3>
+                    <h3 class="time">2.673s</h3>
                   
                 </td>
                 <td><h3 class="title">test_007_VideoTips</h3></td>
@@ -3137,7 +1888,7 @@
               <tr class="test passing odd"  onclick="toggleDetails('test_008_VideoTips_Details');">
                 <td>
                   
-                    <h3 class="time">5.621s</h3>
+                    <h3 class="time">5.911s</h3>
                   
                 </td>
                 <td><h3 class="title">test_008_VideoTips_Details</h3></td>
@@ -3148,7 +1899,7 @@
               <tr class="test passing "  onclick="toggleDetails('test_009_VideoTips_GoBackToContent');">
                 <td>
                   
-                    <h3 class="time">2.465s</h3>
+                    <h3 class="time">2.467s</h3>
                   
                 </td>
                 <td><h3 class="title">test_009_VideoTips_GoBackToContent</h3></td>
@@ -3159,7 +1910,7 @@
               <tr class="test passing odd"  onclick="toggleDetails('test_010_CardNews');">
                 <td>
                   
-                    <h3 class="time">2.624s</h3>
+                    <h3 class="time">2.611s</h3>
                   
                 </td>
                 <td><h3 class="title">test_010_CardNews</h3></td>
@@ -3170,7 +1921,7 @@
               <tr class="test passing "  onclick="toggleDetails('test_011_CardNews_Details');">
                 <td>
                   
-                    <h3 class="time">5.495s</h3>
+                    <h3 class="time">5.292s</h3>
                   
                 </td>
                 <td><h3 class="title">test_011_CardNews_Details</h3></td>
@@ -3181,7 +1932,7 @@
               <tr class="test passing odd"  onclick="toggleDetails('test_012_CardNews_GoBackToContent');">
                 <td>
                   
-                    <h3 class="time">3.658s</h3>
+                    <h3 class="time">3.634s</h3>
                   
                 </td>
                 <td><h3 class="title">test_012_CardNews_GoBackToContent</h3></td>
@@ -3398,7 +2149,7 @@
               <tr class="test passing "  onclick="toggleDetails('test_003_MoveToMyInfo');">
                 <td>
                   
-                    <h3 class="time">24.971s</h3>
+                    <h3 class="time">24.816s</h3>
                   
                 </td>
                 <td><h3 class="title">test_003_MoveToMyInfo</h3></td>
@@ -3409,7 +2160,7 @@
               <tr class="test passing odd"  onclick="toggleDetails('test_004_MoveToWeeklyReport');">
                 <td>
                   
-                    <h3 class="time">4.953s</h3>
+                    <h3 class="time">5.051s</h3>
                   
                 </td>
                 <td><h3 class="title">test_004_MoveToWeeklyReport</h3></td>
@@ -3420,7 +2171,7 @@
               <tr class="test passing "  onclick="toggleDetails('test_005_MoveToMonthlyReport');">
                 <td>
                   
-                    <h3 class="time">4.827s</h3>
+                    <h3 class="time">4.831s</h3>
                   
                 </td>
                 <td><h3 class="title">test_005_MoveToMonthlyReport</h3></td>
@@ -3431,7 +2182,7 @@
               <tr class="test passing odd"  onclick="toggleDetails('test_006_MoveToStatistics');">
                 <td>
                   
-                    <h3 class="time">4.951s</h3>
+                    <h3 class="time">4.898s</h3>
                   
                 </td>
                 <td><h3 class="title">test_006_MoveToStatistics</h3></td>
@@ -3442,7 +2193,7 @@
               <tr class="test passing "  onclick="toggleDetails('test_007_MoveToCalendar');">
                 <td>
                   
-                    <h3 class="time">5.301s</h3>
+                    <h3 class="time">5.342s</h3>
                   
                 </td>
                 <td><h3 class="title">test_007_MoveToCalendar</h3></td>
@@ -3453,7 +2204,7 @@
               <tr class="test passing odd"  onclick="toggleDetails('test_008_MoveToTodaySteps');">
                 <td>
                   
-                    <h3 class="time">15.105s</h3>
+                    <h3 class="time">15.097s</h3>
                   
                 </td>
                 <td><h3 class="title">test_008_MoveToTodaySteps</h3></td>
@@ -3464,7 +2215,7 @@
               <tr class="test passing "  onclick="toggleDetails('test_009_MoveToHemoglobin');">
                 <td>
                   
-                    <h3 class="time">5.233s</h3>
+                    <h3 class="time">5.190s</h3>
                   
                 </td>
                 <td><h3 class="title">test_009_MoveToHemoglobin</h3></td>
@@ -3475,7 +2226,7 @@
               <tr class="test passing odd"  onclick="toggleDetails('test_010_MoveToBloodSugarTest');">
                 <td>
                   
-                    <h3 class="time">7.281s</h3>
+                    <h3 class="time">7.296s</h3>
                   
                 </td>
                 <td><h3 class="title">test_010_MoveToBloodSugarTest</h3></td>
@@ -3486,7 +2237,7 @@
               <tr class="test passing "  onclick="toggleDetails('test_012_MoveToFeedback');">
                 <td>
                   
-                    <h3 class="time">5.325s</h3>
+                    <h3 class="time">5.306s</h3>
                   
                 </td>
                 <td><h3 class="title">test_012_MoveToFeedback</h3></td>
@@ -3497,7 +2248,7 @@
               <tr class="test passing odd"  onclick="toggleDetails('test_013_MoveToMyProfile');">
                 <td>
                   
-                    <h3 class="time">5.123s</h3>
+                    <h3 class="time">5.120s</h3>
                   
                 </td>
                 <td><h3 class="title">test_013_MoveToMyProfile</h3></td>
@@ -3508,7 +2259,7 @@
               <tr class="test passing "  onclick="toggleDetails('test_014_MyProfile_ProfilePicture');">
                 <td>
                   
-                    <h3 class="time">15.836s</h3>
+                    <h3 class="time">15.857s</h3>
                   
                 </td>
                 <td><h3 class="title">test_014_MyProfile_ProfilePicture</h3></td>
@@ -3519,7 +2270,7 @@
               <tr class="test passing odd"  onclick="toggleDetails('test_015_MyProfile_CommunityPost');">
                 <td>
                   
-                    <h3 class="time">5.619s</h3>
+                    <h3 class="time">5.486s</h3>
                   
                 </td>
                 <td><h3 class="title">test_015_MyProfile_CommunityPost</h3></td>
@@ -3530,7 +2281,7 @@
               <tr class="test passing "  onclick="toggleDetails('test_016_MyProfile_Followers');">
                 <td>
                   
-                    <h3 class="time">5.518s</h3>
+                    <h3 class="time">5.502s</h3>
                   
                 </td>
                 <td><h3 class="title">test_016_MyProfile_Followers</h3></td>
@@ -3541,7 +2292,7 @@
               <tr class="test passing odd"  onclick="toggleDetails('test_017_MyProfile_Followings');">
                 <td>
                   
-                    <h3 class="time">5.474s</h3>
+                    <h3 class="time">5.446s</h3>
                   
                 </td>
                 <td><h3 class="title">test_017_MyProfile_Followings</h3></td>
@@ -3552,7 +2303,7 @@
               <tr class="test passing "  onclick="toggleDetails('test_018_MyProfile_UpdateGreeting');">
                 <td>
                   
-                    <h3 class="time">10.436s</h3>
+                    <h3 class="time">10.412s</h3>
                   
                 </td>
                 <td><h3 class="title">test_018_MyProfile_UpdateGreeting</h3></td>
@@ -3563,7 +2314,7 @@
               <tr class="test passing odd"  onclick="toggleDetails('test_019_MyProfile_DiabetesType');">
                 <td>
                   
-                    <h3 class="time">11.522s</h3>
+                    <h3 class="time">11.537s</h3>
                   
                 </td>
                 <td><h3 class="title">test_019_MyProfile_DiabetesType</h3></td>
@@ -3574,7 +2325,7 @@
               <tr class="test passing "  onclick="toggleDetails('test_020_MyProfile_Age');">
                 <td>
                   
-                    <h3 class="time">6.045s</h3>
+                    <h3 class="time">6.054s</h3>
                   
                 </td>
                 <td><h3 class="title">test_020_MyProfile_Age</h3></td>
@@ -3585,7 +2336,7 @@
               <tr class="test passing odd"  onclick="toggleDetails('test_021_MyProfile_Height');">
                 <td>
                   
-                    <h3 class="time">6.048s</h3>
+                    <h3 class="time">6.054s</h3>
                   
                 </td>
                 <td><h3 class="title">test_021_MyProfile_Height</h3></td>
@@ -3596,7 +2347,7 @@
               <tr class="test passing "  onclick="toggleDetails('test_022_MyProfile_Weight');">
                 <td>
                   
-                    <h3 class="time">6.043s</h3>
+                    <h3 class="time">6.007s</h3>
                   
                 </td>
                 <td><h3 class="title">test_022_MyProfile_Weight</h3></td>
@@ -3607,7 +2358,7 @@
               <tr class="test passing odd"  onclick="toggleDetails('test_023_MyProfile_DiabetesStartYear');">
                 <td>
                   
-                    <h3 class="time">6.061s</h3>
+                    <h3 class="time">6.008s</h3>
                   
                 </td>
                 <td><h3 class="title">test_023_MyProfile_DiabetesStartYear</h3></td>
@@ -3618,7 +2369,7 @@
               <tr class="test passing "  onclick="toggleDetails('test_024_MyProfile_Medications');">
                 <td>
                   
-                    <h3 class="time">6.743s</h3>
+                    <h3 class="time">6.687s</h3>
                   
                 </td>
                 <td><h3 class="title">test_024_MyProfile_Medications</h3></td>
@@ -3629,7 +2380,7 @@
               <tr class="test passing odd"  onclick="toggleDetails('test_025_MyProfile_Interests');">
                 <td>
                   
-                    <h3 class="time">6.614s</h3>
+                    <h3 class="time">6.551s</h3>
                   
                 </td>
                 <td><h3 class="title">test_025_MyProfile_Interests</h3></td>
@@ -3640,7 +2391,7 @@
               <tr class="test passing "  onclick="toggleDetails('test_026_MyProfile_DietManagement');">
                 <td>
                   
-                    <h3 class="time">6.632s</h3>
+                    <h3 class="time">6.664s</h3>
                   
                 </td>
                 <td><h3 class="title">test_026_MyProfile_DietManagement</h3></td>
@@ -3651,7 +2402,7 @@
               <tr class="test passing odd"  onclick="toggleDetails('test_027_MyProfile_Job');">
                 <td>
                   
-                    <h3 class="time">6.603s</h3>
+                    <h3 class="time">6.536s</h3>
                   
                 </td>
                 <td><h3 class="title">test_027_MyProfile_Job</h3></td>
@@ -3662,7 +2413,7 @@
               <tr class="test passing "  onclick="toggleDetails('test_028_MyProfile_Disease');">
                 <td>
                   
-                    <h3 class="time">6.584s</h3>
+                    <h3 class="time">6.516s</h3>
                   
                 </td>
                 <td><h3 class="title">test_028_MyProfile_Disease</h3></td>
@@ -3673,7 +2424,7 @@
               <tr class="test passing odd"  onclick="toggleDetails('test_029_MyProfile_Hospital');">
                 <td>
                   
-                    <h3 class="time">6.428s</h3>
+                    <h3 class="time">6.419s</h3>
                   
                 </td>
                 <td><h3 class="title">test_029_MyProfile_Hospital</h3></td>
@@ -3684,7 +2435,7 @@
               <tr class="test passing "  onclick="toggleDetails('test_030_MyProfile_Residence');">
                 <td>
                   
-                    <h3 class="time">6.549s</h3>
+                    <h3 class="time">6.478s</h3>
                   
                 </td>
                 <td><h3 class="title">test_030_MyProfile_Residence</h3></td>
@@ -3695,7 +2446,7 @@
               <tr class="test passing odd"  onclick="toggleDetails('test_031_MyProfile_TargetNumbers');">
                 <td>
                   
-                    <h3 class="time">6.502s</h3>
+                    <h3 class="time">6.488s</h3>
                   
                 </td>
                 <td><h3 class="title">test_031_MyProfile_TargetNumbers</h3></td>
@@ -3706,7 +2457,7 @@
               <tr class="test passing "  onclick="toggleDetails('test_032_MyProfile_SegmentMyInfo');">
                 <td>
                   
-                    <h3 class="time">1.411s</h3>
+                    <h3 class="time">1.397s</h3>
                   
                 </td>
                 <td><h3 class="title">test_032_MyProfile_SegmentMyInfo</h3></td>
@@ -3717,7 +2468,7 @@
               <tr class="test passing odd"  onclick="toggleDetails('test_033_MyProfile_SegmentWritingPost');">
                 <td>
                   
-                    <h3 class="time">10.395s</h3>
+                    <h3 class="time">10.396s</h3>
                   
                 </td>
                 <td><h3 class="title">test_033_MyProfile_SegmentWritingPost</h3></td>
@@ -3728,7 +2479,7 @@
               <tr class="test passing "  onclick="toggleDetails('test_034_MyProfile_SegmentWritingReply');">
                 <td>
                   
-                    <h3 class="time">6.937s</h3>
+                    <h3 class="time">7.456s</h3>
                   
                 </td>
                 <td><h3 class="title">test_034_MyProfile_SegmentWritingReply</h3></td>
@@ -3739,7 +2490,7 @@
               <tr class="test passing odd"  onclick="toggleDetails('test_035_MoveToSettings');">
                 <td>
                   
-                    <h3 class="time">2.910s</h3>
+                    <h3 class="time">2.898s</h3>
                   
                 </td>
                 <td><h3 class="title">test_035_MoveToSettings</h3></td>
@@ -3750,7 +2501,7 @@
               <tr class="test passing "  onclick="toggleDetails('test_036_TermsAndConditions');">
                 <td>
                   
-                    <h3 class="time">41.984s</h3>
+                    <h3 class="time">41.329s</h3>
                   
                 </td>
                 <td><h3 class="title">test_036_TermsAndConditions</h3></td>
@@ -3773,7 +2524,7 @@
               <tr class="test passing "  onclick="toggleDetails('test_003_PrepareForSafariTest');">
                 <td>
                   
-                    <h3 class="time">32.949s</h3>
+                    <h3 class="time">32.827s</h3>
                   
                 </td>
                 <td><h3 class="title">test_003_PrepareForSafariTest</h3></td>
@@ -3784,7 +2535,7 @@
               <tr class="test passing odd"  onclick="toggleDetails('test_004_LandingToRecordGlucose');">
                 <td>
                   
-                    <h3 class="time">18.933s</h3>
+                    <h3 class="time">18.768s</h3>
                   
                 </td>
                 <td><h3 class="title">test_004_LandingToRecordGlucose</h3></td>
@@ -3795,7 +2546,7 @@
               <tr class="test passing "  onclick="toggleDetails('test_005_LandingToRecordExercise');">
                 <td>
                   
-                    <h3 class="time">18.157s</h3>
+                    <h3 class="time">18.114s</h3>
                   
                 </td>
                 <td><h3 class="title">test_005_LandingToRecordExercise</h3></td>
@@ -3832,7 +2583,7 @@
               <tr class="test passing "  onclick="toggleDetails('test_007_LandingToRecordMedicine');">
                 <td>
                   
-                    <h3 class="time">18.092s</h3>
+                    <h3 class="time">18.108s</h3>
                   
                 </td>
                 <td><h3 class="title">test_007_LandingToRecordMedicine</h3></td>
@@ -3843,7 +2594,7 @@
               <tr class="test passing odd"  onclick="toggleDetails('test_008_LandingToRecordBloodPressure');">
                 <td>
                   
-                    <h3 class="time">18.321s</h3>
+                    <h3 class="time">18.051s</h3>
                   
                 </td>
                 <td><h3 class="title">test_008_LandingToRecordBloodPressure</h3></td>
@@ -3854,7 +2605,7 @@
               <tr class="test passing "  onclick="toggleDetails('test_009_LandingToRecordHeartRate');">
                 <td>
                   
-                    <h3 class="time">18.163s</h3>
+                    <h3 class="time">18.147s</h3>
                   
                 </td>
                 <td><h3 class="title">test_009_LandingToRecordHeartRate</h3></td>
@@ -3865,7 +2616,7 @@
               <tr class="test passing odd"  onclick="toggleDetails('test_010_LandingToRecordHba1c');">
                 <td>
                   
-                    <h3 class="time">18.281s</h3>
+                    <h3 class="time">18.116s</h3>
                   
                 </td>
                 <td><h3 class="title">test_010_LandingToRecordHba1c</h3></td>
@@ -3928,7 +2679,7 @@
               <tr class="test passing "  onclick="toggleDetails('test_012_LandingToPointHistory');">
                 <td>
                   
-                    <h3 class="time">23.650s</h3>
+                    <h3 class="time">23.581s</h3>
                   
                 </td>
                 <td><h3 class="title">test_012_LandingToPointHistory</h3></td>
@@ -3939,7 +2690,7 @@
               <tr class="test passing odd"  onclick="toggleDetails('test_013_LandingToGlucoseTable');">
                 <td>
                   
-                    <h3 class="time">18.365s</h3>
+                    <h3 class="time">18.397s</h3>
                   
                 </td>
                 <td><h3 class="title">test_013_LandingToGlucoseTable</h3></td>
@@ -3950,7 +2701,7 @@
               <tr class="test passing "  onclick="toggleDetails('test_014_LandingToPedometer');">
                 <td>
                   
-                    <h3 class="time">20.939s</h3>
+                    <h3 class="time">20.936s</h3>
                   
                 </td>
                 <td><h3 class="title">test_014_LandingToPedometer</h3></td>
@@ -3961,7 +2712,7 @@
               <tr class="test passing odd"  onclick="toggleDetails('test_015_LandingToRecord');">
                 <td>
                   
-                    <h3 class="time">26.299s</h3>
+                    <h3 class="time">26.461s</h3>
                   
                 </td>
                 <td><h3 class="title">test_015_LandingToRecord</h3></td>
@@ -3972,7 +2723,7 @@
               <tr class="test passing "  onclick="toggleDetails('test_016_LandingToPointMission');">
                 <td>
                   
-                    <h3 class="time">23.273s</h3>
+                    <h3 class="time">23.006s</h3>
                   
                 </td>
                 <td><h3 class="title">test_016_LandingToPointMission</h3></td>
@@ -3983,7 +2734,7 @@
               <tr class="test passing odd"  onclick="toggleDetails('test_017_LandingToCommunityFeedDetail');">
                 <td>
                   
-                    <h3 class="time">18.982s</h3>
+                    <h3 class="time">19.003s</h3>
                   
                 </td>
                 <td><h3 class="title">test_017_LandingToCommunityFeedDetail</h3></td>
@@ -3991,59 +2742,18 @@
               
             
               
-              <tr class="test failing "  onclick="toggleDetails('test_018_LandingToHeroProfilePage');">
+              <tr class="test passing "  onclick="toggleDetails('test_018_LandingToHeroProfilePage');">
                 <td>
+                  
+                    <h3 class="time">20.934s</h3>
                   
                 </td>
                 <td><h3 class="title">test_018_LandingToHeroProfilePage</h3></td>
               </tr>
               
-                <tr class="details failing test_018_LandingToHeroProfilePage">
-                  <td></td>
-                  <td>
-                    
-                      <section class="test-detail reason">XCTAssertTrue failed</section>
-                    
-                    
-                      <section class="test-detail snippet">        <span class="kt">XCTAssert</span><span class="p">(</span><span class="n">app</span><span class="o">.</span><span class="n">staticTexts</span><span class="p">[</span><span class="s">"닥터다이어리"</span><span class="p">]</span><span class="o">.</span><span class="nf">waitForExist</span><span class="p">())</span>
-        <span class="kt">XCTAssert</span><span class="p">(</span><span class="n">app</span><span class="o">.</span><span class="n">staticTexts</span><span class="p">[</span><span class="s">"공식 계정"</span><span class="p">]</span><span class="o">.</span><span class="nf">waitForExist</span><span class="p">())</span>
-    <span class="p">}</span>
-</section>
-                      <section class="test-detail">/Users/admin/Desktop/DrDiary-iOS-v2/drdiary-iosUITests/UITestsSuite_011_DeepLink.swift:137</section>
-                    
-                    
-                  </td>
-                </tr>
-              
             
               
               <tr class="test failing odd"  onclick="toggleDetails('test_019_LandingToCommunityEvent');">
-                <td>
-                  
-                </td>
-                <td><h3 class="title">test_019_LandingToCommunityEvent</h3></td>
-              </tr>
-              
-                <tr class="details failing test_019_LandingToCommunityEvent">
-                  <td></td>
-                  <td>
-                    
-                      <section class="test-detail reason">XCTAssertTrue failed</section>
-                    
-                    
-                      <section class="test-detail snippet">        <span class="k">try</span> <span class="nf">openSafariAndMoveTo</span><span class="p">(</span><span class="nv">link</span><span class="p">:</span> <span class="kt">DeepLinkSheet</span><span class="o">.</span><span class="n">event</span><span class="o">.</span><span class="n">rawValue</span><span class="p">)</span>
-        <span class="kt">XCTAssert</span><span class="p">(</span><span class="n">app</span><span class="o">.</span><span class="n">navigationBars</span><span class="o">.</span><span class="n">staticTexts</span><span class="p">[</span><span class="s">"이벤트 상세"</span><span class="p">]</span><span class="o">.</span><span class="nf">waitForExist</span><span class="p">())</span>
-        <span class="kt">XCTAssert</span><span class="p">(</span><span class="n">app</span><span class="o">.</span><span class="n">navigationBars</span><span class="o">.</span><span class="n">buttons</span><span class="p">[</span><span class="s">"뒤로"</span><span class="p">]</span><span class="o">.</span><span class="nf">waitForExist</span><span class="p">())</span>
-</section>
-                      <section class="test-detail">/Users/admin/Desktop/DrDiary-iOS-v2/drdiary-iosUITests/UITestsSuite_011_DeepLink.swift:142</section>
-                    
-                    
-                  </td>
-                </tr>
-              
-            
-              
-              <tr class="test failing "  onclick="toggleDetails('test_019_LandingToCommunityEvent');">
                 <td>
                   
                 </td>
@@ -4069,10 +2779,10 @@
               
             
               
-              <tr class="test passing odd"  onclick="toggleDetails('test_020_LandingToCommunityApplicants');">
+              <tr class="test passing "  onclick="toggleDetails('test_020_LandingToCommunityApplicants');">
                 <td>
                   
-                    <h3 class="time">19.561s</h3>
+                    <h3 class="time">18.792s</h3>
                   
                 </td>
                 <td><h3 class="title">test_020_LandingToCommunityApplicants</h3></td>
@@ -4080,10 +2790,10 @@
               
             
               
-              <tr class="test passing "  onclick="toggleDetails('test_021_LandingToCommunityWrite');">
+              <tr class="test passing odd"  onclick="toggleDetails('test_021_LandingToCommunityWrite');">
                 <td>
                   
-                    <h3 class="time">21.325s</h3>
+                    <h3 class="time">21.219s</h3>
                   
                 </td>
                 <td><h3 class="title">test_021_LandingToCommunityWrite</h3></td>
@@ -4091,7 +2801,7 @@
               
             
               
-              <tr class="test failing odd"  onclick="toggleDetails('test_022_LandingToContent');">
+              <tr class="test failing "  onclick="toggleDetails('test_022_LandingToContent');">
                 <td>
                   
                 </td>
@@ -4117,10 +2827,10 @@
               
             
               
-              <tr class="test passing "  onclick="toggleDetails('test_023_LandingToContentDetail');">
+              <tr class="test passing odd"  onclick="toggleDetails('test_023_LandingToContentDetail');">
                 <td>
                   
-                    <h3 class="time">17.851s</h3>
+                    <h3 class="time">17.645s</h3>
                   
                 </td>
                 <td><h3 class="title">test_023_LandingToContentDetail</h3></td>
@@ -4128,7 +2838,7 @@
               
             
               
-              <tr class="test failing odd"  onclick="toggleDetails('test_024_LandingToMall');">
+              <tr class="test failing "  onclick="toggleDetails('test_024_LandingToMall');">
                 <td>
                   
                 </td>
@@ -4154,10 +2864,10 @@
               
             
               
-              <tr class="test passing "  onclick="toggleDetails('test_025_LandingToSettings');">
+              <tr class="test passing odd"  onclick="toggleDetails('test_025_LandingToSettings');">
                 <td>
                   
-                    <h3 class="time">23.486s</h3>
+                    <h3 class="time">23.184s</h3>
                   
                 </td>
                 <td><h3 class="title">test_025_LandingToSettings</h3></td>
@@ -4165,10 +2875,10 @@
               
             
               
-              <tr class="test passing odd"  onclick="toggleDetails('test_026_LandingToKakaoConnect');">
+              <tr class="test passing "  onclick="toggleDetails('test_026_LandingToKakaoConnect');">
                 <td>
                   
-                    <h3 class="time">18.485s</h3>
+                    <h3 class="time">18.357s</h3>
                   
                 </td>
                 <td><h3 class="title">test_026_LandingToKakaoConnect</h3></td>
@@ -4176,10 +2886,10 @@
               
             
               
-              <tr class="test passing "  onclick="toggleDetails('test_027_LandingToProfile');">
+              <tr class="test passing odd"  onclick="toggleDetails('test_027_LandingToProfile');">
                 <td>
                   
-                    <h3 class="time">17.434s</h3>
+                    <h3 class="time">18.257s</h3>
                   
                 </td>
                 <td><h3 class="title">test_027_LandingToProfile</h3></td>
@@ -4187,10 +2897,10 @@
               
             
               
-              <tr class="test passing odd"  onclick="toggleDetails('test_028_LandingToGreeting');">
+              <tr class="test passing "  onclick="toggleDetails('test_028_LandingToGreeting');">
                 <td>
                   
-                    <h3 class="time">18.567s</h3>
+                    <h3 class="time">18.439s</h3>
                   
                 </td>
                 <td><h3 class="title">test_028_LandingToGreeting</h3></td>
@@ -4198,10 +2908,10 @@
               
             
               
-              <tr class="test passing "  onclick="toggleDetails('test_029_LandingToDietType');">
+              <tr class="test passing odd"  onclick="toggleDetails('test_029_LandingToDietType');">
                 <td>
                   
-                    <h3 class="time">18.465s</h3>
+                    <h3 class="time">18.315s</h3>
                   
                 </td>
                 <td><h3 class="title">test_029_LandingToDietType</h3></td>
@@ -4209,10 +2919,10 @@
               
             
               
-              <tr class="test passing odd"  onclick="toggleDetails('test_030_LandingToJob');">
+              <tr class="test passing "  onclick="toggleDetails('test_030_LandingToJob');">
                 <td>
                   
-                    <h3 class="time">17.345s</h3>
+                    <h3 class="time">18.254s</h3>
                   
                 </td>
                 <td><h3 class="title">test_030_LandingToJob</h3></td>
@@ -4220,10 +2930,10 @@
               
             
               
-              <tr class="test passing "  onclick="toggleDetails('test_031_LandingToInterest');">
+              <tr class="test passing odd"  onclick="toggleDetails('test_031_LandingToInterest');">
                 <td>
                   
-                    <h3 class="time">18.469s</h3>
+                    <h3 class="time">18.414s</h3>
                   
                 </td>
                 <td><h3 class="title">test_031_LandingToInterest</h3></td>
@@ -4231,10 +2941,10 @@
               
             
               
-              <tr class="test passing odd"  onclick="toggleDetails('test_032_LandingToDisease');">
+              <tr class="test passing "  onclick="toggleDetails('test_032_LandingToDisease');">
                 <td>
                   
-                    <h3 class="time">17.345s</h3>
+                    <h3 class="time">18.370s</h3>
                   
                 </td>
                 <td><h3 class="title">test_032_LandingToDisease</h3></td>
@@ -4242,10 +2952,10 @@
               
             
               
-              <tr class="test passing "  onclick="toggleDetails('test_033_LandingToKakaoRegister');">
+              <tr class="test passing odd"  onclick="toggleDetails('test_033_LandingToKakaoRegister');">
                 <td>
                   
-                    <h3 class="time">18.615s</h3>
+                    <h3 class="time">18.503s</h3>
                   
                 </td>
                 <td><h3 class="title">test_033_LandingToKakaoRegister</h3></td>
@@ -4253,10 +2963,10 @@
               
             
               
-              <tr class="test passing odd"  onclick="toggleDetails('test_034_LandingToHba1c');">
+              <tr class="test passing "  onclick="toggleDetails('test_034_LandingToHba1c');">
                 <td>
                   
-                    <h3 class="time">18.319s</h3>
+                    <h3 class="time">18.180s</h3>
                   
                 </td>
                 <td><h3 class="title">test_034_LandingToHba1c</h3></td>
@@ -4264,10 +2974,10 @@
               
             
               
-              <tr class="test passing "  onclick="toggleDetails('test_035_LandingToExpendable');">
+              <tr class="test passing odd"  onclick="toggleDetails('test_035_LandingToExpendable');">
                 <td>
                   
-                    <h3 class="time">18.498s</h3>
+                    <h3 class="time">17.251s</h3>
                   
                 </td>
                 <td><h3 class="title">test_035_LandingToExpendable</h3></td>
@@ -4275,10 +2985,10 @@
               
             
               
-              <tr class="test passing odd"  onclick="toggleDetails('test_036_LandingToInsurance');">
+              <tr class="test passing "  onclick="toggleDetails('test_036_LandingToInsurance');">
                 <td>
                   
-                    <h3 class="time">18.500s</h3>
+                    <h3 class="time">18.454s</h3>
                   
                 </td>
                 <td><h3 class="title">test_036_LandingToInsurance</h3></td>
@@ -4286,10 +2996,10 @@
               
             
               
-              <tr class="test passing "  onclick="toggleDetails('test_037_LandingToMonthlyReport');">
+              <tr class="test passing odd"  onclick="toggleDetails('test_037_LandingToMonthlyReport');">
                 <td>
                   
-                    <h3 class="time">18.697s</h3>
+                    <h3 class="time">18.445s</h3>
                   
                 </td>
                 <td><h3 class="title">test_037_LandingToMonthlyReport</h3></td>
@@ -4297,10 +3007,10 @@
               
             
               
-              <tr class="test passing odd"  onclick="toggleDetails('test_038_LandingToWeeklyReport');">
+              <tr class="test passing "  onclick="toggleDetails('test_038_LandingToWeeklyReport');">
                 <td>
                   
-                    <h3 class="time">18.458s</h3>
+                    <h3 class="time">18.441s</h3>
                   
                 </td>
                 <td><h3 class="title">test_038_LandingToWeeklyReport</h3></td>
@@ -4308,10 +3018,10 @@
               
             
               
-              <tr class="test passing "  onclick="toggleDetails('test_039_LandingToBrowser');">
+              <tr class="test passing odd"  onclick="toggleDetails('test_039_LandingToBrowser');">
                 <td>
                   
-                    <h3 class="time">20.438s</h3>
+                    <h3 class="time">20.361s</h3>
                   
                 </td>
                 <td><h3 class="title">test_039_LandingToBrowser</h3></td>
@@ -4334,7 +3044,7 @@
               <tr class="test passing "  onclick="toggleDetails('test_003_MoveToClass');">
                 <td>
                   
-                    <h3 class="time">24.544s</h3>
+                    <h3 class="time">24.539s</h3>
                   
                 </td>
                 <td><h3 class="title">test_003_MoveToClass</h3></td>
@@ -4405,7 +3115,7 @@
                   <td></td>
                   <td>
                     
-                      <section class="test-detail reason">Failed to get matching snapshot: No matches found for first query match sequence: `Descendants matching type ScrollView` -> `Descendants matching type Other` -> `Descendants matching type CollectionView` -> `Elements matching predicate '"CoachingProgramLearningCollectionView" IN identifiers'` -> `Descendants matching type Cell` -> `Descendants matching type StaticText` -> `Elements matching predicate '"정답률 0%" IN identifiers'`, given input App element pid: 73430 (no attribute values faulted in)</section>
+                      <section class="test-detail reason">Failed to get matching snapshot: No matches found for first query match sequence: `Descendants matching type ScrollView` -> `Descendants matching type Other` -> `Descendants matching type CollectionView` -> `Elements matching predicate '"CoachingProgramLearningCollectionView" IN identifiers'` -> `Descendants matching type Cell` -> `Descendants matching type StaticText` -> `Elements matching predicate '"정답률 0%" IN identifiers'`, given input App element pid: 3707 (no attribute values faulted in)</section>
                     
                     
                       <section class="test-detail snippet">        <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
@@ -4431,7 +3141,7 @@
                   <td></td>
                   <td>
                     
-                      <section class="test-detail reason">Failed to synthesize event: Failed to scroll to visible (by AX action) Button, {{187.0, 544.0}, {181.0, 66.0}}, label: 'coaching chatting', error: Error kAXErrorCannotComplete performing AXAction kAXScrollToVisibleAction on element AX element pid: 73430, elementOrHash.elementID: 140286393997328.2894. (Underlying Error: Error kAXErrorCannotComplete performing AXAction kAXScrollToVisibleAction on element AX element pid: 73430, elementOrHash.elementID: 140286393997328.2894)</section>
+                      <section class="test-detail reason">Failed to synthesize event: Failed to scroll to visible (by AX action) Button, {{187.0, 544.0}, {181.0, 66.0}}, label: 'coaching chatting', error: Error kAXErrorCannotComplete performing AXAction kAXScrollToVisibleAction on element AX element pid: 3707, elementOrHash.elementID: 140201280410240.2930. (Underlying Error: Error kAXErrorCannotComplete performing AXAction kAXScrollToVisibleAction on element AX element pid: 3707, elementOrHash.elementID: 140201280410240.2930)</section>
                     
                     
                       <section class="test-detail snippet">        <span class="k">if</span> <span class="k">self</span><span class="o">.</span><span class="nf">waitForExistence</span><span class="p">(</span><span class="nv">timeout</span><span class="p">:</span> <span class="n">timeout</span><span class="p">)</span> <span class="p">{</span>
